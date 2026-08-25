@@ -1,0 +1,643 @@
+{
+  "summary": {
+    "total_cases": 35,
+    "judge_model": "gpt-4o-mini",
+    "average_contextual_recall": 0.9143,
+    "average_contextual_precision": 0.7505,
+    "recall_threshold": 0.7,
+    "precision_threshold": 0.7,
+    "passed": true
+  },
+  "test_cases": [
+    {
+      "case_id": 1,
+      "input": "Why did Santiago decide to become a shepherd instead of a priest?",
+      "expected_contexts": [
+        "He had studied Latin, Spanish, and theology. But ever since he had been a child, he had wanted to know the world, and this was much more important to him than knowing God and learning about man's sins. One afternoon, on a visit to his family, he had summoned up the courage to tell his father that he didn't want to become a priest. That he wanted to travel."
+      ],
+      "retrieved_contexts": [
+        "The jacket had a purpose, and so did the boy. His purpose in life was to travel, and, after two years of \nwalking the Andalusian terrain, he knew all the cities of the region. He was planning, on this visit, to \nexplain to the girl how it was that a simple shepherd knew how to read. That he had attended a seminary \nuntil he was sixteen. His parents had wanted him to become a priest, and thereby a source of pride for a \nsimple farm family. They worked hard just to have food and water, like the sheep. He had studied Latin,",
+        "\"Another dreamer,\" said the ticket seller to his assistant, watching the boy walk away. \"He doesn't have \nenough money to travel.\" \n\nWhile standing at the ticket window, the boy had remembered his flock, and decided he should go back \nto being a shepherd. In two years he had learned everything about shepherding: he knew how to shear \nsheep, how to care for pregnant ewes, and how to protect the sheep from wolves. He knew all the fields \nand pastures of Andalusia. And he knew what was the fair price for every one of his animals.",
+        "\"He should have decided to become a shepherd,\" the boy said. \n\n\"Well, he thought about that,\" the old man said. \"But bakers are more important people than shepherds. \nBakers have homes, while shepherds sleep out in the open. Parents would rather see their children marry \nbakers than shepherds.\" \n\nThe boy felt a pang in his heart, thinking about the merchant's daughter. There was surely a baker in her \ntown. \n\nThe old man continued, \"In the long run, what people think about shepherds and bakers becomes more \nimportant for them than their own destinies.\"",
+        "simple farm family. They worked hard just to have food and water, like the sheep. He had studied Latin, \nSpanish, and theology. But ever since he had been a child, he had wanted to know the world, and this \nwas much more important to him than knowing God and learning about man's sins. One afternoon, on a \nvisit to his family, he had summoned up the courage to tell his father that he didn't want to become a \npriest. That he wanted to travel.",
+        "\"But I'd like to see the castles in the towns where they live,\" the boy explained. \n\n\"Those people, when they see our land, say that they would like to live here forever,\" his father \ncontinued. \n\n\"Well, I'd like to see their land, and see how they live,\" said his son. \n\n\n\n\"The people who come here have a lot of money to spend, so they can afford to travel,\" his father said. \n\"Amongst us, the only ones who travel are the shepherds.\" \n\n\"Well, then I'll be a shepherd!\" \n\nHis father said no more. The next day, he gave his son a pouch that held three ancient Spanish gold \ncoins."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 2,
+      "input": "What did Santiago's father give him when Santiago chose to become a shepherd?",
+      "expected_contexts": [
+        "The next day, he gave his son a pouch that held three ancient Spanish gold coins. 'I found these one day in the fields. I wanted them to be a part of your inheritance. But use them to buy your flock. Take to the fields, and someday you'll learn that our countryside is the best, and our women the most beautiful.'"
+      ],
+      "retrieved_contexts": [
+        "\"But I'd like to see the castles in the towns where they live,\" the boy explained. \n\n\"Those people, when they see our land, say that they would like to live here forever,\" his father \ncontinued. \n\n\"Well, I'd like to see their land, and see how they live,\" said his son. \n\n\n\n\"The people who come here have a lot of money to spend, so they can afford to travel,\" his father said. \n\"Amongst us, the only ones who travel are the shepherds.\" \n\n\"Well, then I'll be a shepherd!\" \n\nHis father said no more. The next day, he gave his son a pouch that held three ancient Spanish gold \ncoins.",
+        "\"Another dreamer,\" said the ticket seller to his assistant, watching the boy walk away. \"He doesn't have \nenough money to travel.\" \n\nWhile standing at the ticket window, the boy had remembered his flock, and decided he should go back \nto being a shepherd. In two years he had learned everything about shepherding: he knew how to shear \nsheep, how to care for pregnant ewes, and how to protect the sheep from wolves. He knew all the fields \nand pastures of Andalusia. And he knew what was the fair price for every one of his animals.",
+        "The jacket had a purpose, and so did the boy. His purpose in life was to travel, and, after two years of \nwalking the Andalusian terrain, he knew all the cities of the region. He was planning, on this visit, to \nexplain to the girl how it was that a simple shepherd knew how to read. That he had attended a seminary \nuntil he was sixteen. His parents had wanted him to become a priest, and thereby a source of pride for a \nsimple farm family. They worked hard just to have food and water, like the sheep. He had studied Latin,",
+        "simple farm family. They worked hard just to have food and water, like the sheep. He had studied Latin, \nSpanish, and theology. But ever since he had been a child, he had wanted to know the world, and this \nwas much more important to him than knowing God and learning about man's sins. One afternoon, on a \nvisit to his family, he had summoned up the courage to tell his father that he didn't want to become a \npriest. That he wanted to travel.",
+        "\"He should have decided to become a shepherd,\" the boy said. \n\n\"Well, he thought about that,\" the old man said. \"But bakers are more important people than shepherds. \nBakers have homes, while shepherds sleep out in the open. Parents would rather see their children marry \nbakers than shepherds.\" \n\nThe boy felt a pang in his heart, thinking about the merchant's daughter. There was surely a baker in her \ntown. \n\nThe old man continued, \"In the long run, what people think about shepherds and bakers becomes more \nimportant for them than their own destinies.\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 3,
+      "input": "What recurrent dream led Santiago to seek out an interpreter in Tarifa?",
+      "expected_contexts": [
+        "'I dreamed that I was in a field with my sheep, when a child appeared and began to play with the animals... And suddenly, the child took me by both hands and transported me to the Egyptian pyramids... the child said to me, If you come here, you will find a hidden treasure.' And, just as she was about to show me the exact location, I woke up. Both times.'"
+      ],
+      "retrieved_contexts": [
+        "It's the possibility of having a dream come true that makes life interesting, he thought, as he looked again \nat the position of the sun, and hurried his pace. He had suddenly remembered that, in Tarifa, there was an \nold woman who interpreted dreams. \n\n\n\nThe old woman led the boy to a room at the back of her house; it was separated from her living room by \na curtain of colored beads. The room's furnishings consisted of a table, an image of the Sacred Heart of \nJesus, and two chairs.",
+        "distant a dream for him as was Mecca for the merchant. Anyway, the boy had become happy in his \nwork, and thought all the time about the day when he would disembark at Tarifa as a winner.",
+        "dream. If he were to tire of the Andalusian fields, he could sell his sheep and go to sea. By the time he \nhad had enough of the sea, he would already have known other cities, other women, and other chances \nto be happy. I couldn't have found God in the seminary, he thought, as he looked at the sunrise.",
+        "\"You came so that you could learn about your dreams,\" said the old woman. \"And dreams are the \nlanguage of God. When he speaks in our language, I can interpret what he has said. But if he speaks in \nthe language of the soul, it is only you who can understand. But, whichever it is, I'm going to charge you \nfor the consultation.\" \n\nAnother trick, the boy thought. But he decided to take a chance. A shepherd always takes his chances \nwith wolves and with drought, and that's what makes a shepherd's life exciting.",
+        "\"Maktub ,\" she said. \"If I am really a part of your dream, you'll come back one day.\" \n\nThe boy was sad as he left her that day. He thought of all the married shepherds he had known. They \nhad a difficult time convincing their wives that they had to go off into distant fields. Love required them to \nstay with the people they loved. \n\nHe told Fatima that, at their next meeting."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.45
+      }
+    },
+    {
+      "case_id": 4,
+      "input": "What payment did the Gypsy dream interpreter demand from Santiago?",
+      "expected_contexts": [
+        "'I'm not going to charge you anything now,' she said. 'But I want one-tenth of the treasure, if you find it.' The boy laughed — out of happiness. He was going to be able to save the little money he had because of a dream about hidden treasure!"
+      ],
+      "retrieved_contexts": [
+        "\"Give me my book,\" the boy said. \"I have to go and gather my sheep and get going.\" \n\n\"Give me one-tenth of your sheep,\" said the old man, \"and I'll tell you how to find the hidden treasure.\" \n\nThe boy remembered his dream, and suddenly everything was clear to him. The old woman hadn't \ncharged him anything, but the old man — maybe he was her husband — was going to find a way to get \nmuch more money in exchange for information about something that didn't even exist. The old man was \nprobably a Gypsy, too.",
+        "It's true; life really is generous to those who pursue their destiny, the boy thought. Then he remembered \nthat he had to get to Tarifa so he could give one-tenth of his treasure to the Gypsy woman, as he had \npromised. Those Gypsies are really smart, he thought. Maybe it was because they moved around so \nmuch. \n\nThe wind began to blow again. It was the levanter, the wind that came fromAfrica . It didn't bring with it \nthe smell of the desert, nor the threat of Moorish invasion. Instead, it brought the scent of a perfume he",
+        "\"Another dreamer,\" said the ticket seller to his assistant, watching the boy walk away. \"He doesn't have \nenough money to travel.\" \n\nWhile standing at the ticket window, the boy had remembered his flock, and decided he should go back \nto being a shepherd. In two years he had learned everything about shepherding: he knew how to shear \nsheep, how to care for pregnant ewes, and how to protect the sheep from wolves. He knew all the fields \nand pastures of Andalusia. And he knew what was the fair price for every one of his animals.",
+        "\"Two thousand years ago, in a distant land, a man who believed in dreams was thrown into a dungeon \nand then sold as a slave,\" the old man said, now in the dialect the boy understood. \"Our merchants \nbought that man, and brought him to Egypt. All of us know that whoever believes in dreams also knows \nhow to interpret them.\" \n\nThe elder continued, \"When the pharaoh dreamed of cows that were thin and cows that were fat, this \nman I'm speaking of rescued Egypt from famine. His name was Joseph. He, too, was a stranger in a \nstrange land, like you, and he was probably about your age.\"",
+        "\"There is no wine in this country,\" the young man said. \"The religion here forbids it.\" \n\nThe boy told him then that he needed to get to the Pyramids. He almost began to tell about his treasure, \nbut decided not to do so. If he did, it was possible that the Arab would want a part of it as payment for \ntaking him there. He remembered what the old man had said about offering something you didn't even \nhave yet. \n\n\"I'd like you to take me there if you can. I can pay you to serve as my guide.\" \n\n\"Do you have any idea how to get there?\" the newcomer asked."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 5,
+      "input": "According to Melchizedek, what is the 'world's greatest lie'?",
+      "expected_contexts": [
+        "'It's this: that at a certain point in our lives, we lose control of what's happening to us, and our lives become controlled by fate. That's the world's greatest lie.'"
+      ],
+      "retrieved_contexts": [
+        "\"What's the world's greatest lie?\" the boy asked, completely surprised. \n\n\"It's this: that at a certain point in our lives, we lose control of what's happening to us, and our lives \nbecome controlled by fate. That's the world's greatest lie.\" \n\n\"That's never happened to me,\" the boy said. \"They wanted me to be a priest, but I decided to become \na shepherd.\" \n\n\"Much better,\" said the old man. \"Because you really like to travel.\" \n\n\"He knew what I was thinking,\" the boy said to himself. The old man, meanwhile, was leafing through the",
+        "Melchizedek watched a small ship that was plowing its way out of the port. He would never again see \nthe boy, just as he had never seen Abraham again after having charged him his one-tenth fee. That was \nhis work. \n\nThe gods should not have desires, because they don't have destinies. But the king of Salem hoped \ndesperately that the boy would be successful. \n\nIt's too bad that he's quickly going to forget my name, he thought. I should have repeated it for him. \nThen when he spoke about me he would say that I am Melchizedek, the king of Salem.",
+        "\"One night, the father had a dream. An angel appeared to him, and told him that the words of one of his \nsons would be learned and repeated throughout the world for all generations to come. The father woke \nfrom his dream grateful and crying, because life was generous, and had revealed to him something any \nfather would be proud to know.",
+        "evolved into a Master Work. \n\nThe boy reached through to the Soul of the World, and saw that it was a part of the Soul of God. And \nhe saw that the Soul of God was his own soul. And that he, a boy, could perform miracles. \n\n\n\nThesimum blew that day as it had never blown before. For generations thereafter, the Arabs recounted \nthe legend of a boy who had turned himself into the wind, almost destroying a military camp, in defiance \nof the most powerful chief in the desert.",
+        "\"Every second of the search is an encounter with God,\" the boy told his heart. \"When I have been truly \nsearching for my treasure, every day has been luminous, because I've known that every hour was a part \nof the dream that I would find it. When I have been truly searching for my treasure, I've discovered things \nalong the way that I never would have seen had I not had the courage to try things that seemed \nimpossible for a shepherd to achieve.\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 6,
+      "input": "How did Melchizedek convince Santiago that he possessed supernatural knowledge?",
+      "expected_contexts": [
+        "There, in the sand of the plaza of that small city, the boy read the names of his father and his mother and the name of the seminary he had attended. He read the name of the merchant's daughter, which he hadn't even known, and he read things he had never told anyone."
+      ],
+      "retrieved_contexts": [
+        "Melchizedek watched a small ship that was plowing its way out of the port. He would never again see \nthe boy, just as he had never seen Abraham again after having charged him his one-tenth fee. That was \nhis work. \n\nThe gods should not have desires, because they don't have destinies. But the king of Salem hoped \ndesperately that the boy would be successful. \n\nIt's too bad that he's quickly going to forget my name, he thought. I should have repeated it for him. \nThen when he spoke about me he would say that I am Melchizedek, the king of Salem.",
+        "But he had to move on. He believed in omens. All his life and all his studies were aimed at finding the \none true language of the universe. First he had studied Esperanto, then the world's religions, and now it \nwas alchemy. He knew how to speak Esperanto, he understood all the major religions well, but he wasn't \nyet an alchemist. He had unraveled the truths behind important questions, but his studies had taken him to \na point beyond which he could not seem to go. He had tried in vain to establish a relationship with an",
+        "He could see almost the entire city from where he sat, including the plaza where he had talked with the \nold man. Curse the moment I met that old man, he thought. He had come to the town only to find a \nwoman who could interpret his dream. Neither the woman nor the old man were at all impressed by the \nfact that he was a shepherd. They were solitary individuals who no longer believed in things, and didn't \nunderstand that shepherds become attached to their sheep. He knew everything about each member of",
+        "There, in the sand of the plaza of that small city, the boy read the names of his father and his mother and \nthe name of the seminary he had attended. He read the name of the merchant's daughter, which he hadn't \neven known, and he read things he had never told anyone. \n\n\n\n\"I'm the king of Salem,\" the old man had said. \n\n\"Why would a king be talking with a shepherd?\" the boy asked, awed and embarrassed. \n\n\"For several reasons. But let's say that the most important is that you have succeeded in discovering your \ndestiny.\" \n\nThe boy didn't know what a person's \"destiny\" was.",
+        "He decided to concentrate on more practical matters. He knew that in the caravan there was a man to \nwhom he was to teach some of his secrets. The omens had told him so. He didn't know the man yet, but \nhis practiced eye would recognize him when he appeared. He hoped that it would be someone as \ncapable as his previous apprentice. \n\nI don't know why these things have to be transmitted by word of mouth, he thought. It wasn't exactly \nthat they were secrets; God revealed his secrets easily to all his creatures."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 7,
+      "input": "What story did Melchizedek tell to explain how he helps people realize their destiny?",
+      "expected_contexts": [
+        "The old man related that, the week before, he had been forced to appear before a miner, and had taken the form of a stone. The miner had abandoned everything to go mining for emeralds. For five years he had been working a certain river... The miner, with all the anger and frustration of his five fruitless years, picked up the stone and threw it aside. But he had thrown it with such force that it broke the stone it fell upon, and there, embedded in the broken stone, was the most beautiful emerald in the world."
+      ],
+      "retrieved_contexts": [
+        "Melchizedek watched a small ship that was plowing its way out of the port. He would never again see \nthe boy, just as he had never seen Abraham again after having charged him his one-tenth fee. That was \nhis work. \n\nThe gods should not have desires, because they don't have destinies. But the king of Salem hoped \ndesperately that the boy would be successful. \n\nIt's too bad that he's quickly going to forget my name, he thought. I should have repeated it for him. \nThen when he spoke about me he would say that I am Melchizedek, the king of Salem.",
+        "The boy didn't know what a person's \"destiny\" was. \n\n\"It's what you have always wanted to accomplish. Everyone, when they are young, knows what their \ndestiny is. \n\n\"At that point in their lives, everything is clear and everything is possible. They are not afraid to dream, \nand to yearn for everything they would like to see happen to them in their lives. But, as time passes, a \nmysterious force begins to convince them that it will be impossible for them to realize their destiny.\"",
+        "There, in the sand of the plaza of that small city, the boy read the names of his father and his mother and \nthe name of the seminary he had attended. He read the name of the merchant's daughter, which he hadn't \neven known, and he read things he had never told anyone. \n\n\n\n\"I'm the king of Salem,\" the old man had said. \n\n\"Why would a king be talking with a shepherd?\" the boy asked, awed and embarrassed. \n\n\"For several reasons. But let's say that the most important is that you have succeeded in discovering your \ndestiny.\" \n\nThe boy didn't know what a person's \"destiny\" was.",
+        "\"My name is Melchizedek,\" said the old man. \"How many sheep do you have?\" \n\n\"Enough,\" said the boy. He could see that the old man wanted to know more about his life. \n\n\"Well, then, we've got a problem. I can't help you if you feel you've got enough sheep.\" \n\nThe boy was getting irritated. He wasn't asking for help. It was the old man who had asked for a drink \nof his wine, and had started the conversation. \n\n\"Give me my book,\" the boy said. \"I have to go and gather my sheep and get going.\"",
+        "The closer one gets to realizing his destiny, the more that destiny becomes his true reason for being, \nthought the boy. \n\nThe caravan moved toward the east. It traveled during the morning, halted when the sun was at its \nstrongest, and resumed late in the afternoon. The boy spoke very little with the Englishman, who spent \nmost of his time with his books."
+      ],
+      "scores": {
+        "contextual_recall": 0.0,
+        "contextual_precision": 0.0
+      }
+    },
+    {
+      "case_id": 8,
+      "input": "What price did Melchizedek demand from Santiago in exchange for information on the treasure?",
+      "expected_contexts": [
+        "'Give me one-tenth of your sheep,' said the old man, 'and I'll tell you how to find the hidden treasure.'... 'Tomorrow, at this same time, bring me a tenth of your flock. And I will tell you how to find the hidden treasure.'"
+      ],
+      "retrieved_contexts": [
+        "He was planning as he left the bar. He had remembered that one of the crystal merchant's suppliers \ntransported his crystal by means of caravans that crossed the desert. He held Urim and Thummim in his \nhand; because of those two stones, he was once again on the way to his treasure. \n\n\"I am always nearby, when someone wants to realize their destiny,\" the old king had told him. \n\nWhat could it cost to go over to the supplier's warehouse and find out if the Pyramids were really that far \naway?",
+        "He opened his pouch to see what was left of his possessions; maybe there was a bit left of the sandwich \nhe had eaten on the ship. But all he found was the heavy book, his jacket, and the two stones the old \nman had given him.",
+        "What could it cost to go over to the supplier's warehouse and find out if the Pyramids were really that far \naway? \n\n\n\nThe Englishman was sitting on a bench in a structure that smelled of animals, sweat, and dust; it was part \nwarehouse, part corral. I never thought I'd end up in a place like this, he thought, as he leafed through the \npages of a chemical journal. Ten years at the university, and here I am in a corral.",
+        "\"What about one-tenth of my treasure?\" \n\nThe old man looked disappointed. \"If you start out by promising what you don't even have yet, you'll \nlose your desire to work toward getting it.\" \n\n\n\nThe boy told him that he had already promised to give one-tenth of his treasure to the Gypsy. \n\n\"Gypsies are experts at getting people to do that,\" sighed the old man. \"In any case, it's good that you've \nlearned that everything in life has its price. This is what the Warriors of the Light try to teach.\" \n\nThe old man returned the book to the boy.",
+        "\"Why did you want to get to the Pyramids?\" he asked, to get away from the business of the display. \n\n\"Because I've always heard about them,\" the boy answered, saying nothing about his dream. The \ntreasure was now nothing but a painful memory, and he tried to avoid thinking about it. \n\n\"I don't know anyone around here who would want to cross the desert just to see the Pyramids,\" said \nthe merchant. \"They're just a pile of stones. You could build one in your backyard.\" \n\n\"You've never had dreams of travel,\" said the boy, turning to wait on a customer who had entered the \nshop."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.25
+      }
+    },
+    {
+      "case_id": 9,
+      "input": "What is the 'principle of favorability' described by Melchizedek?",
+      "expected_contexts": [
+        "'That's the way it always is,' said the old man. 'It's called the principle of favorability. When you play cards the first time, you are almost sure to win. Beginner's luck.' 'Why is that?' 'Because there is a force that wants you to realize your destiny; it whets your appetite with a taste of success.'"
+      ],
+      "retrieved_contexts": [
+        "Melchizedek watched a small ship that was plowing its way out of the port. He would never again see \nthe boy, just as he had never seen Abraham again after having charged him his one-tenth fee. That was \nhis work. \n\nThe gods should not have desires, because they don't have destinies. But the king of Salem hoped \ndesperately that the boy would be successful. \n\nIt's too bad that he's quickly going to forget my name, he thought. I should have repeated it for him. \nThen when he spoke about me he would say that I am Melchizedek, the king of Salem.",
+        "\"It's called the principle of favorability, beginner's luck. Because life wants you to achieve your destiny,\" \nthe old king had said. \n\nBut the merchant understood what the boy had said. The boy's very presence in the shop was an omen, \nand, as time passed and money was pouring into the cash drawer, he had no regrets about having hired \nthe boy. The boy was being paid more money than he deserved, because the merchant, thinking that \nsales wouldn't amount to much, had offered the boy a high commission rate. He had assumed he would \nsoon return to his sheep.",
+        "\"My name is Melchizedek,\" said the old man. \"How many sheep do you have?\" \n\n\"Enough,\" said the boy. He could see that the old man wanted to know more about his life. \n\n\"Well, then, we've got a problem. I can't help you if you feel you've got enough sheep.\" \n\nThe boy was getting irritated. He wasn't asking for help. It was the old man who had asked for a drink \nof his wine, and had started the conversation. \n\n\"Give me my book,\" the boy said. \"I have to go and gather my sheep and get going.\"",
+        "\"Business has really improved,\" he said to the boy, after the customer had left. \"I'm doing much better, \nand soon you'll be able to return to your sheep. Why ask more out of life?\" \n\n\"Because we have to respond to omens,\" the boy said, almost without meaning to; then he regretted \nwhat he had said, because the merchant had never met the king. \n\n\"It's called the principle of favorability, beginner's luck. Because life wants you to achieve your destiny,\" \nthe old king had said.",
+        "That's true enough, the boy thought, ruefully. \n\n\"Why did you think we should have the display?\" \n\n\"I want to get back to my sheep faster. We have to take advantage when luck is on our side, and do as \nmuch to help it as it's doing to help us. It's called the principle of favorability. Or beginner's luck.\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.95
+      }
+    },
+    {
+      "case_id": 10,
+      "input": "What lesson did the wise man teach in the story about the spoon with two drops of oil?",
+      "expected_contexts": [
+        "'Well, there is only one piece of advice I can give you,' said the wisest of wise men. 'The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.' The shepherd said nothing. He had understood the story the old king had told him. A shepherd may like to travel, but he should never forget about his sheep."
+      ],
+      "retrieved_contexts": [
+        "\" 'But where are the drops of oil I entrusted to you?' asked the wise man. \n\n\"Looking down at the spoon he held, the boy saw that the oil was gone. \n\n\" 'Well, there is only one piece of advice I can give you,' said the wisest of wise men. 'The secret of \nhappiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.' \" \n\nThe shepherd said nothing. He had understood the story the old king had told him. A shepherd may like \nto travel, but he should never forget about his sheep.",
+        "\"The wise man listened attentively to the boy's explanation of why he had come, but told him that he \ndidn't have time just then to explain the secret of happiness. He suggested that the boy look around the \npalace and return in two hours. \n\n\" 'Meanwhile, I want to ask you to do something,' said the wise man, handing the boy a teaspoon that \nheld two drops of oil. As you wander around, carry this spoon with you without allowing the oil to spill.'",
+        "to spill the oil that the wise man had entrusted to him. \n\n\" 'Then go back and observe the marvels of my world,' said the wise man. 'You cannot trust a man if you \ndon't know his house.' \n\n\"Relieved, the boy picked up the spoon and returned to his exploration of the palace, this time observing \nall of the works of art on the ceilings and the walls. He saw the gardens, the mountains all around him, the \nbeauty of the flowers, and the taste with which everything had been selected. Upon returning to the wise \nman, he related in detail everything he had seen.",
+        "\"The boy began climbing and descending the many stairways of the palace, keeping his eyes fixed on the \nspoon. After two hours, he returned to the room where the wise man was. \n\n\" Well,' asked the wise man, 'did you see the Persian tapestries that are hanging in my dining hall? Did \nyou see the garden that it took the master gardener ten years to create? Did you notice the beautiful \nparchments in my library?' \n\n\"The boy was embarrassed, and confessed that he had observed nothing. His only concern had been not \n\n\n\nto spill the oil that the wise man had entrusted to him.",
+        "\"You would have to have been bom an Arab to understand,\" he answered. \"But in your language it \nwould be something like It is written.' \" \n\nAnd, as he smothered the coals in the hookah, he told the boy that he could begin to sell tea in the \ncrystal glasses. Sometimes, there's just no way to hold back the river. \n\n\n\nThe men climbed the hill, and they were tired when they reached the top. But there they saw a crystal \nshop that offered refreshing mint tea. They went in to drink the tea, which was served in beautiful crystal \nglasses."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 11,
+      "input": "How did Santiago lose all his money upon arriving in Tangier?",
+      "expected_contexts": [
+        "Suddenly, there in the midst of all that confusion, he saw the most beautiful sword he had ever seen... He continued to look at the beautiful sword for a bit longer, until he summoned the courage to turn around. All around him was the market... but nowhere could he find his new companion."
+      ],
+      "retrieved_contexts": [
+        "They walked together through the narrow streets of Tangier. Everywhere there were stalls with items for \nsale. They reached the center of a large plaza where the market was held. There were thousands of \npeople there, arguing, selling, and buying; vegetables for sale amongst daggers, and carpets displayed \nalongside tobacco. But the boy never took his eye off his new friend. After all, he had all his money. He \nthought about asking him to give it back, but decided that would be unfriendly. He knew nothing about \nthe customs of the strange land he was in.",
+        "\"Let's get out of here\" said the new arrival. \"He wants us to leave.\" \n\nThe boy was relieved. He got up to pay the bill, but the owner grabbed him and began to speak to him \nin an angry stream of words. The boy was strong, and wanted to retaliate, but he was in a foreign \ncountry. His new friend pushed the owner aside, and pulled the boy outside with him. \"He wanted your \nmoney,\" he said. \"Tangier is not like the rest of Africa. This is a port, and every port has its thieves.\"",
+        "But, as time passed, Tangier had changed. The nearby city of Ceuta had grown faster than Tangier, and \nbusiness had fallen off. Neighbors moved away, and there remained only a few small shops on the hill. \nAnd no one was going to climb the hill just to browse through a few small shops. \n\nBut the crystal merchant had no choice. He had lived thirty years of his life buying and selling crystal \npieces, and now it was too late to do anything else.",
+        "the ground. \n\n\"A practice of infidels,\" he said to himself. As a child in church, he had always looked at the image of \nSaint Santiago Matamoros on his white horse, his sword unsheathed, and figures such as these kneeling \nat his feet. The boy felt ill and terribly alone. The infidels had an evil look about them. \n\nBesides this, in the rush of his travels he had forgotten a detail, just one detail, which could keep him \nfrom his treasure for a long time: only Arabic was spoken in this country.",
+        "\"I've never had one before,\" the merchant answered. \"People will pass by and bump into it, and pieces \nwill be broken.\" \n\n\"Well, when I took my sheep through the fields some of them might have died if we had come upon a \nsnake. But that's the way life is with sheep and with shepherds.\" \n\nThe merchant turned to a customer who wanted three crystal glasses. He was selling better than ever. . . \nas if time had turned back to the old days when the street had been one of Tangier's major attractions."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.25
+      }
+    },
+    {
+      "case_id": 12,
+      "input": "What did Santiago realize while helping the candy seller set up his stall in Tangier?",
+      "expected_contexts": [
+        "'This candy merchant isn't making candy so that later he can travel or marry a shopkeeper's daughter. He's doing it because it's what he wants to do,' thought the boy... When he had gone only a short distance, he realized that, while they were erecting the stall, one of them had spoken Arabic and the other Spanish. And they had understood each other perfectly well. There must be a language that doesn't depend on words, the boy thought."
+      ],
+      "retrieved_contexts": [
+        "They walked together through the narrow streets of Tangier. Everywhere there were stalls with items for \nsale. They reached the center of a large plaza where the market was held. There were thousands of \npeople there, arguing, selling, and buying; vegetables for sale amongst daggers, and carpets displayed \nalongside tobacco. But the boy never took his eye off his new friend. After all, he had all his money. He \nthought about asking him to give it back, but decided that would be unfriendly. He knew nothing about \nthe customs of the strange land he was in.",
+        "The boy picked up his pouch and put it with his other things. He went down the stairs and found the \nmerchant waiting on a foreign couple, while two other customers walked about the shop, drinking tea \nfrom crystal glasses. It was more activity than usual for this time of the morning. From where he stood, he \nsaw for the first time that the old merchant's hair was very much like the hair of the old king. He \nremembered the smile of the candy seller, on his first day in Tangier, when he had nothing to eat and \nnowhere to go — that smile had also been like the old king's smile.",
+        "\"Ask the owner of that stall how much the sword costs,\" he said to his friend. Then he realized that he \nhad been distracted for a few moments, looking at the sword. His heart squeezed, as if his chest had \nsuddenly compressed it. He was afraid to look around, because he knew what he would find. He \ncontinued to look at the beautiful sword for a bit longer, until he summoned the courage to turn around. \n\nAll around him was the market, with people coming and going, shouting and buying, and the aroma of \nstrange foods. . . but nowhere could he find his new companion.",
+        "He walked slowly through the market. The merchants were assembling their stalls, and the boy helped a \ncandy seller to do his. The candy seller had a smile on his face: he was happy, aware of what his life was \nabout, and ready to begin a day's work. His smile reminded the boy of the old man — the mysterious old \nking he had met. \"This candy merchant isn't making candy so that later he can travel or marry a \nshopkeeper's daughter. He's doing it because it's what he wants to do,\" thought the boy. He realized that",
+        "As he looked at the stones, he felt relieved for some reason. He had exchanged six sheep for two \nprecious stones that had been taken from a gold breastplate. He could sell the stones and buy a return \nticket. But this time I'll be smarter, the boy thought, removing them from the pouch so he could put them \nin his pocket. This was a port town, and the only truthful thing his friend had told him was that port towns \nare full of thieves."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 13,
+      "input": "Why did the crystal merchant let Santiago clean his glassware even though the Koran obliged him to feed the hungry?",
+      "expected_contexts": [
+        "'You didn't have to do any cleaning,' he said. 'The Koran requires me to feed a hungry person.' 'Well then, why did you let me do it?' the boy asked. 'Because the crystal was dirty. And both you and I needed to cleanse our minds of negative thoughts.'"
+      ],
+      "retrieved_contexts": [
+        "When he had completed the cleaning, he asked the man for something to eat. \"Let's go and have some \nlunch,\" said the crystal merchant. \n\nHe put a sign on the door, and they went to a small cafe nearby. As they sat down at the only table in \nthe place, the crystal merchant laughed. \n\n\"You didn't have to do any cleaning,\" he said. \"The Koran requires me to feed a hungry person.\" \n\n\"Well then, why did you let me do it?\" the boy asked. \n\n\"Because the crystal was dirty. And both you and I needed to cleanse our minds of negative thoughts.\"",
+        "The crystal merchant awoke with the day, and felt the same anxiety that he felt every morning. He had \nbeen in the same place for thirty years: a shop at the top of a hilly street where few customers passed. \nNow it was too late to change anything — the only thing he had ever learned to do was to buy and sell \ncrystal glassware. There had been a time when many people knew of his shop: Arab merchants, French \nand English geologists, German soldiers who were always well-heeled. In those days it had been",
+        "The man looked at him without responding. \n\n\"In exchange, you could give me something to eat.\" \n\n\n\nThe man still said nothing, and the boy sensed that he was going to have to make a decision. In his \npouch, he had his jacket — he certainly wasn't going to need it in the desert. Taking the jacket out, he \nbegan to clean the glasses. In half an hour, he had cleaned all the glasses in the window, and, as he was \ndoing so, two customers had entered the shop and bought some crystal.",
+        "\"You would have to have been bom an Arab to understand,\" he answered. \"But in your language it \nwould be something like It is written.' \" \n\nAnd, as he smothered the coals in the hookah, he told the boy that he could begin to sell tea in the \ncrystal glasses. Sometimes, there's just no way to hold back the river. \n\n\n\nThe men climbed the hill, and they were tired when they reached the top. But there they saw a crystal \nshop that offered refreshing mint tea. They went in to drink the tea, which was served in beautiful crystal \nglasses.",
+        "Two more months passed, and the shelf brought many customers into the crystal shop. The boy \nestimated that, if he worked for six more months, he could return to Spain and buy sixty sheep, and yet \nanother sixty. In less than a year, he would have doubled his flock, and he would be able to do business \nwith the Arabs, because he was now able to speak their strange language. Since that morning in the \nmarketplace, he had never again made use of Urim and Thummim, because Egypt was now just as \ndistant a dream for him as was Mecca for the merchant. Anyway, the boy had become happy in his"
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 14,
+      "input": "Why did the crystal merchant refuse to make his pilgrimage to Mecca?",
+      "expected_contexts": [
+        "'Because it's the thought of Mecca that keeps me alive. That's what helps me face these days that are all the same, these mute crystals on the shelves, and lunch and dinner at that same horrible cafe. I'm afraid that if my dream is realized, I'll have no reason to go on living... so I prefer just to dream about it.'"
+      ],
+      "retrieved_contexts": [
+        "\"All who went there were happy at having done so. They placed the symbols of the pilgrimage on the \ndoors of their houses. One of them, a cobbler who made his living mending boots, said that he had \ntraveled for almost a year through the desert, but that he got more tired when he had to walk through the \nstreets of Tangier buying his leather.\" \n\n\"Well, why don't you go to Mecca now?\" asked the boy.",
+        "\"Mecca is a lot farther away than the Pyramids. When I was young, all I wanted to do was put together \nenough money to start this shop. I thought that someday I'd be rich, and could go to Mecca. I began to \nmake some money, but I could never bring myself to leave someone in charge of the shop; the crystals \nare delicate things. At the same time, people were passing my shop all the time, heading for Mecca. \nSome of them were rich pilgrims, traveling in caravans with servants and camels, but most of the people \nmaking the pilgrimage were poorer than I.",
+        "Who knows. . . maybe it's better to be like the crystal merchant: never go to Mecca, and just go through \nlife wanting to do so, he thought, again trying to convince himself. But as he held Urim and Thurnmim in \nhis hand, they had transmitted to him the strength and will of the old king. By coincidence — or maybe it \nwas an omen, the boy thought — he came to the bar he had entered on his first day there. The thief wasn't \nthere, and the owner brought him a cup of tea.",
+        "\"I am proud of you,\" he said. \"You brought a new feeling into my crystal shop. But you know that I'm \nnot going to go to Mecca. Just as you know that you're not going to buy your sheep.\" \n\n\"Who told you that?\" asked the boy, startled. \n\n\"Maktub \" said the old crystal merchant. \n\nAnd he gave the boy his blessing.",
+        "\"What's the fifth obligation?\" the boy asked. \n\n\"Two days ago, you said that I had never dreamed of travel,\" the merchant answered. \"The fifth \nobligation of every Muslim is a pilgrimage. We are obliged, at least once in our lives, to visit the holy city \nof Mecca."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.95
+      }
+    },
+    {
+      "case_id": 15,
+      "input": "What does the Arabic word 'Maktub' mean as explained in the novel?",
+      "expected_contexts": [
+        "'Maktub,' the merchant said, finally. 'What does that mean?' 'You would have to have been born an Arab to understand,' he answered. 'But in your language it would be something like It is written.'"
+      ],
+      "retrieved_contexts": [
+        "He was alarmed by what had happened. He had succeeded in reaching through to the Soul of the \nWorld, and now the price for having done so might be his life. It was a frightening bet. But he had been \nmaking risky bets ever since the day he had sold his sheep to pursue his destiny. And, as the camel driver \nhad said, to die tomorrow was no worse than dying on any other day. Every day was there to be lived or \nto mark one's departure from this world. Everything depended on one word: \"Maktub\"",
+        "And he concluded by saying the mysterious word: \"Maktub\" \n\n\"You should pay more attention to the caravan,\" the boy said to the Englishman, after the camel driver \nhad left. \"We make a lot of detours, but we're always heading for the same destination.\" \n\n\"And you ought to read more about the world,\" answered the Englishman. \"Books are like caravans in \nthat respect.\"",
+        "The three fell silent. The boy noted that there was a sense of fear in the air, even though no one said \nanything. Once again he was experiencing the language without words. . . the universal language. \n\nThe Englishman asked if they were in danger. \n\n\"Once you get into the desert, there's no going back,\" said the camel driver. \"And, when you can't go \nback, you have to worry only about the best way of moving forward. The rest is up to Allah, including \nthe danger.\" \n\nAnd he concluded by saying the mysterious word: \"Maktub\"",
+        "There are probably other things in the world that the sheep can't teach me, thought the boy as he \nregarded the old merchant. All they ever do, really, is look for food and water. And maybe it wasn't that \nthey were teaching me, but that I was learning from them. \n\n\"Maktub,\" the merchant said, finally. \n\n\"What does that mean?\" \n\n\"You would have to have been bom an Arab to understand,\" he answered. \"But in your language it \nwould be something like It is written.' \"",
+        "\"Maktub\" the boy said, remembering the crystal merchant."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.5833
+      }
+    },
+    {
+      "case_id": 16,
+      "input": "What was the Englishman searching for when he joined the desert caravan?",
+      "expected_contexts": [
+        "'Everything in life is an omen,' said the Englishman... 'There is a universal language, understood by everybody, but already forgotten. I am in search of that universal language, among other things. That's why I'm here. I have to find a man who knows that universal language. An alchemist.'"
+      ],
+      "retrieved_contexts": [
+        "And he concluded by saying the mysterious word: \"Maktub\" \n\n\"You should pay more attention to the caravan,\" the boy said to the Englishman, after the camel driver \nhad left. \"We make a lot of detours, but we're always heading for the same destination.\" \n\n\"And you ought to read more about the world,\" answered the Englishman. \"Books are like caravans in \nthat respect.\"",
+        "But all this happened for one basic reason: no matter how many detours and adjustments it made, the \ncaravan moved toward the same compass point. Once obstacles were overcome, it returned to its \ncourse, sighting on a star that indicated the location of the oasis. When the people saw that star shining in \nthe morning sky, they knew they were on the right course toward water, palm trees, shelter, and other \npeople. It was only the Englishman who was unaware of all this; he was, for the most part, immersed in \nreading his books.",
+        "\"He lives at the Al-Fayoum oasis,\" his friend had said. \"And people say that he is two hundred years old, \nand is able to transform any metal into gold.\" \n\nThe Englishman could not contain his excitement. He canceled all his commitments and pulled together \nthe most important of his books, and now here he was, sitting inside a dusty, smelly warehouse. Outside, \na huge caravan was being prepared for a crossing of the Sahara, and was scheduled to pass through \nAl-Fayoum.",
+        "The Englishman didn't answer him directly. He said that for the past few days he had been paying \nattention to how the caravan operated, but that he hadn't learned anything new. The only thing he had \n\n\n\nnoticed was that talk of war was becoming more and more frequent. \n\n\n\nThen one day the boy returned the books to the Englishman. \"Did you learn anything?\" the Englishman \nasked, eager to hear what it might be. He needed someone to talk to so as to avoid thinking about the \npossibility of war.",
+        "\"It's going to take a while,\" the boy said. \n\n\"We're in no hurry,\" the chief answered. \"We are men of the desert.\" \n\nThe boy looked out at the horizon. There were mountains in the distance. And there were dunes, rocks, \nand plants that insisted on living where survival seemed impossible. There was the desert that he had \nwandered for so many months; despite all that time, he knew only a small part of it. Within that small \npart, he had found an Englishman, caravans, tribal wars, and an oasis with fifty thousand palm trees and \nthree hundred wells."
+      ],
+      "scores": {
+        "contextual_recall": 0.0,
+        "contextual_precision": 0.0
+      }
+    },
+    {
+      "case_id": 17,
+      "input": "What are the two components of the alchemical 'Master Work'?",
+      "expected_contexts": [
+        "The boy learned that the liquid part of the Master Work was called the Elixir of Life, and that it cured all illnesses; it also kept the alchemist from growing old. And the solid part was called the Philosopher's Stone... 'A small sliver of the stone can transform large quantities of metal into gold.'"
+      ],
+      "retrieved_contexts": [
+        "\"It's only those who are persistent, and willing to study things deeply, who achieve the Master Work. \nThat's why I'm here in the middle of the desert. I'm seeking a true alchemist who will help me to decipher \nthe codes.\" \n\n\"When were these books written?\" the boy asked. \n\n\"Many centuries ago.\" \n\n\"They didn't have the printing press in those days,\" the boy argued. \"There was no way for everybody to \nknow about alchemy. Why did they use such strange language, with so many drawings?\"",
+        "The book that most interested the boy told the stories of the famous alchemists. They were men who \nhad dedicated their entire lives to the purification of metals in their laboratories; they believed that, if a \nmetal were heated for many years, it would free itself of all its individual properties, and what was left \nwould be the Soul of the World. This Soul of the World allowed them to understand anything on the face \nof the earth, because it was the language with which all things communicated. They called that discovery \nthe Master Work — it was part liquid and part solid.",
+        "\"Can't you just observe men and omens in order to understand the language?\" the boy asked. \n\n\"You have a mania for simplifying everything,\" answered the Englishman, irritated. \"Alchemy is a serious \ndiscipline. Every step has to be followed exactly as it was followed by the masters.\" \n\nThe boy learned that the liquid part of the Master Work was called the Elixir of Life, and that it cured all \nillnesses; it also kept the alchemist from growing old. And the solid part was called the Philosopher's \nStone.",
+        "\"I'm an alchemist simply because I'm an alchemist,\" he said, as he prepared the meal. \"I learned the \nscience from my grandfather, who learned from his father, and so on, back to the creation of the world. \nIn those times, the Master Work could be written simply on an emerald. But men began to reject simple \nthings, and to write tracts, interpretations, and philosophical studies. They also began to feel that they \nknew a better way than others had. Yet the Emerald Tablet is still alive today.\" \n\n\"What was written on the Emerald Tablet?\" the boy wanted to know.",
+        "\"There is only one way to learn,\" the alchemist answered. \"It's through action. Everything you need to \nknow you have learned through your journey. You need to learn only one thing more.\" \n\nThe boy wanted to know what that was, but the alchemist was searching the horizon, looking for the \nfalcon. \n\n\"Why are you called the alchemist?\" \n\n\"Because that's what I am.\" \n\n\"And what went wrong when other alchemists tried to make gold and were unable to do so?\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 18,
+      "input": "What is the Emerald Tablet?",
+      "expected_contexts": [
+        "In one of the books he learned that the most important text in the literature of alchemy contained only a few lines, and had been inscribed on the surface of an emerald. 'It's the Emerald Tablet,' said the Englishman, proud that he might teach something to the boy."
+      ],
+      "retrieved_contexts": [
+        "\"It's a code,\" said the boy, a bit disappointed. \"It looks like what I saw in the Englishman's books.\" \n\n\"No,\" the alchemist answered. \"It's like the flight of those two hawks; it can't be understood by reason \nalone. The Emerald Tablet is a direct passage to the Soul of the World.",
+        "\"What was written on the Emerald Tablet?\" the boy wanted to know. \n\nThe alchemist began to draw in the sand, and completed his drawing in less than five minutes. As he \ndrew, the boy thought of the old king, and the plaza where they had met that day; it seemed as if it had \ntaken place years and years ago. \n\n\"This is what was written on the Emerald Tablet,\" said the alchemist, when he had finished. \n\nThe boy tried to read what was written in the sand. \n\n\"It's a code,\" said the boy, a bit disappointed. \"It looks like what I saw in the Englishman's books.\"",
+        "\"I'm an alchemist simply because I'm an alchemist,\" he said, as he prepared the meal. \"I learned the \nscience from my grandfather, who learned from his father, and so on, back to the creation of the world. \nIn those times, the Master Work could be written simply on an emerald. But men began to reject simple \nthings, and to write tracts, interpretations, and philosophical studies. They also began to feel that they \nknew a better way than others had. Yet the Emerald Tablet is still alive today.\" \n\n\"What was written on the Emerald Tablet?\" the boy wanted to know.",
+        "\"Should I understand the Emerald Tablet?\" the boy asked. \n\n\"Perhaps, if you were in a laboratory of alchemy, this would be the right time to study the best way to \nunderstand the Emerald Tablet. But you are in the desert. So immerse yourself in it. The desert will give \nyou an understanding of the world; in fact, anything on the face of the earth will do that. You don't even \nhave to understand the desert: all you have to do is contemplate a simple grain of sand, and you will see \nin it all the marvels of creation.\" \n\n\"How do I immerse myself in the desert?\"",
+        "In one of the books he learned that the most important text in the literature of alchemy contained only a \nfew lines, and had been inscribed on the surface of an emerald. \n\n\"It's the Emerald Tablet,\" said the Englishman, proud that he might teach something to the boy. \n\n\"Well, then, why do we need all these books?\" the boy asked. \n\n\"So that we can understand those few lines,\" the Englishman answered, without appearing really to \nbelieve what he had said."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 19,
+      "input": "What philosophy did the camel driver share about living happily?",
+      "expected_contexts": [
+        "'Because I don't live in either my past or my future. I'm interested only in the present. If you can concentrate always on the present, you'll be a happy man. You'll see that there is life in the desert, that there are stars in the heavens, and that tribesmen fight because they are part of the human race. Life will be a party for you, a grand festival, because life is the moment we're living right now.'"
+      ],
+      "retrieved_contexts": [
+        "He became friendly with the camel driver who traveled alongside him. At night, as they sat around the \nfire, the boy related to the driver his adventures as a shepherd. \n\nDuring one of these conversations, the driver told of his own life. \n\n\"I used to live near El Cairum,\" he said. \"I had my orchard, my children, and a life that would change not \nat all until I died. One year, when the crop was the best ever, we all went to Mecca, and I satisfied the \nonly unmet obligation in my life. I could die happily, and that made me feel good.",
+        "and the camel drivers were forced to dismount and unburden their charges. The drivers carried the freight \nthemselves over such treacherous footing, and then reloaded the camels. If a guide were to fall ill or die, \nthe camel drivers would draw lots and appoint a new one.",
+        "The camel driver understood what the boy was saying. He knew that any given thing on the face of the \nearth could reveal the history of all things. One could open a book to any page, or look at a person's \nhand; one could turn a card, or watch the flight of the birds. . . whatever the thing observed, one could \nfind a connection with his experience of the moment. Actually, it wasn't that those things, in themselves, \nrevealed anything at all; it was just that people, looking at what was occurring around them, could find a \nmeans of penetration to the Soul of the World.",
+        "\"We are afraid of losing what we have, whether it's our life or our possessions and property. But this \nfear evaporates when we understand that our life stories and the history of the world were written by the \nsame hand.\" \n\nSometimes, their caravan met with another. One always had something that the other needed — as if \neverything were indeed written by one hand. As they sat around the fire, the camel drivers exchanged \ninformation about windstorms, and told stories about the desert.",
+        "The camel driver was seated at the base of a palm tree, observing the sunset. He saw the boy appear \n\n\n\nfrom the other side of the dunes. \n\n\"An army is coming,\" the boy said. \"I had a vision.\" \n\n\"The desert fills men's hearts with visions,\" the camel driver answered. \n\nBut the boy told him about the hawks: that he had been watching their flight and had suddenly felt himself \nto have plunged to the Soul of the World."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 20,
+      "input": "Why are desert oases treated as neutral territories during tribal wars?",
+      "expected_contexts": [
+        "They had been taking careful precautions in the desert, but the camel driver explained to the boy that oases were always considered to be neutral territories, because the majority of the inhabitants were women and children. There were oases throughout the desert, but the tribesmen fought in the desert, leaving the oases as places of refuge."
+      ],
+      "retrieved_contexts": [
+        "They had been taking careful precautions in the desert, but the camel driver explained to the boy that \noases were always considered to be neutral territories, because the majority of the inhabitants were \nwomen and children. There were oases throughout the desert, but the tribesmen fought in the desert, \nleaving the oases as places of refuge.",
+        "The desert was full of men who earned their living based on the ease with which they could penetrate to \nthe Soul of the World. They were known as seers, and they were held in fear by women and the elderly. \nTribesmen were also wary of consulting them, because it would be impossible to be effective in battle if \none knew that he was fated to die. The tribesmen preferred the taste of battle, and the thrill of not \nknowing what the outcome would be; the future was already written by Allah, and what he had written",
+        "\"Why would the desert reveal such things to a stranger, when it knows that we have been here for \ngenerations?\" said another of the chieftains. \n\n\"Because my eyes are not yet accustomed to the desert,\" the boy said. \"I can see things that eyes \nhabituated to the desert might not see.\" \n\nAnd also because I know about the Soul of the World, he thought to himself. \n\n\"The oasis is neutral ground. No one attacks an oasis,\" said a third chieftain. \n\n\"I can only tell you what I saw. If you don't want to believe me, you don't have to do anything about it.\"",
+        "With some difficulty, the leader of the caravan brought all his people together and gave them his \ninstructions. The group was to remain there at the oasis until the conflict between the tribes was over. \nSince they were visitors, they would have to share living space with those who lived there, and would be \ngiven the best accommodations. That was the law of hospitality. Then he asked that everyone, including \nhis own sentinels, hand over their arms to the men appointed by the tribal chieftains.",
+        "The desert was all sand in some stretches, and rocky in others. When the caravan was blocked by a \nboulder, it had to go around it; if there was a large rocky area, they had to make a major detour. If the \nsand was too fine for the animals' hooves, they sought a way where the sand was more substantial. In \nsome places, the ground was covered with the salt of dried-up lakes. The animals balked at such places, \nand the camel drivers were forced to dismount and unburden their charges. The drivers carried the freight"
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 21,
+      "input": "Why did the Englishman carry a revolver during his journey through the desert?",
+      "expected_contexts": [
+        "To the boy's surprise, the Englishman took a chrome-plated revolver out of his bag and gave it to the men who were collecting the arms. 'Why a revolver?' he asked. 'It helped me to trust in people,' the Englishman answered."
+      ],
+      "retrieved_contexts": [
+        "\"Those are the rules of war,\" the leader explained. \"The oases may not shelter armies or troops.\" \n\nTo the boy's surprise, the Englishman took a chrome-plated revolver out of his bag and gave it to the \nmen who were collecting the arms. \n\n\"Why a revolver?\" he asked. \n\n\"It helped me to trust in people,\" the Englishman answered.",
+        "\"Why a revolver?\" he asked. \n\n\"It helped me to trust in people,\" the Englishman answered. \n\nMeanwhile, the boy thought about his treasure. The closer he got to the realization of his dream, the \nmore difficult things became. It seemed as if what the old king had called \"beginner's luck\" were no longer \nfunctioning. In his pursuit of the dream, he was being constantly subjected to tests of his persistence and \ncourage. So he could not be hasty, nor impatient. If he pushed forward impulsively, he would fail to see \nthe signs and omens left by God along his path.",
+        "He smoked in silence, thinking of nothing, and listening to the sound of the wind that brought the scent of \nthe desert. When he had finished his smoke, he reached into one of his pockets, and sat there for a few \nmoments, regarding what he had withdrawn. \n\nIt was a bundle of money. Enough to buy himself a hundred and twenty sheep, a return ticket, and a \nlicense to import products from Africa into his own country. \n\nHe waited patiently for the merchant to awaken and open the shop. Then the two went off to have some \nmore tea.",
+        "\"He lives at the Al-Fayoum oasis,\" his friend had said. \"And people say that he is two hundred years old, \nand is able to transform any metal into gold.\" \n\nThe Englishman could not contain his excitement. He canceled all his commitments and pulled together \nthe most important of his books, and now here he was, sitting inside a dusty, smelly warehouse. Outside, \na huge caravan was being prepared for a crossing of the Sahara, and was scheduled to pass through \nAl-Fayoum.",
+        "\"All who went there were happy at having done so. They placed the symbols of the pilgrimage on the \ndoors of their houses. One of them, a cobbler who made his living mending boots, said that he had \ntraveled for almost a year through the desert, but that he got more tired when he had to walk through the \nstreets of Tangier buying his leather.\" \n\n\"Well, why don't you go to Mecca now?\" asked the boy."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 22,
+      "input": "What advice did the alchemist give the Englishman when they finally met at Al-Fayoum?",
+      "expected_contexts": [
+        "'I waited all afternoon and evening,' he said. 'He appeared with the first stars of evening. I told him what I was seeking, and he asked me if I had ever transformed lead into gold. I told him that was what I had come here to learn. He told me I should try to do so. That's all he said: 'Go and try.''"
+      ],
+      "retrieved_contexts": [
+        "The Englishman was disappointed. It seemed he had made the long journey for nothing. The boy was \nalso saddened; his friend was in pursuit of his destiny. And, when someone was in such pursuit, the entire \nuniverse made an effort to help him succeed — that's what the old king had said. He couldn't have been \nwrong. \n\n\"I had never heard of alchemists before,\" the boy said. \"Maybe no one here has, either.\" \n\nThe Englishman's eyes lit up. \"That's it! Maybe no one here knows what an alchemist is! Find out who it \nis who cures the people's illnesses!\"",
+        "I'm going to find that damned alchemist, the Englishman thought. And the odor of the animals became a \nbit more tolerable. \n\n\n\nA young Arab, also loaded down with baggage, entered, and greeted the Englishman. \n\n\"Where are you bound?\" asked the young Arab. \n\n\"I'm going into the desert,\" the man answered, turning back to his reading. He didn't want any \nconversation at this point. What he needed to do was review all he had learned over the years, because \nthe alchemist would certainly put him to the test.",
+        "\"We've wasted almost the entire day,\" said the Englishman, sitting down with the boy near one of the \nwells. \n\n\"Maybe we'd better ask someone,\" the boy suggested. \n\nThe Englishman didn't want to tell others about his reasons for being at the oasis, and couldn't make up \nhis mind. But, finally, he agreed that the boy, who spoke better Arabic than he, should do so. The boy \napproached a woman who had come to the well to fill a goatskin with water. \n\n\"Good afternoon, ma'am. I'm trying to find out where the alchemist lives here at the oasis.\"",
+        "That first day, everyone slept from exhaustion, including the Englishman. The boy was assigned a place \n\n\n\nfar from his friend, in a tent with five other young men of about his age. They were people of the desert, \nand clamored to hear his stories about the great cities. \n\nThe boy told them about his life as a shepherd, and was about to tell them of his experiences at the \ncrystal shop when the Englishman came into the tent. \n\n\"I've been looking for you all morning,\" he said, as he led the boy outside. \"I need you to help me find \nout where the alchemist lives.\"",
+        "The Englishman's eyes lit up. \"That's it! Maybe no one here knows what an alchemist is! Find out who it \nis who cures the people's illnesses!\" \n\nSeveral women dressed in black came to the well for water, but the boy would speak to none of them, \ndespite the Englishman's insistence. Then a man approached. \n\n\"Do you know someone here who cures people's illnesses?\" the boy asked. \n\n\"Allah cures our illnesses,\" said the man, clearly frightened of the strangers. \"You're looking for witch \ndoctors.\" He spoke some verses from the Koran, and moved on."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 23,
+      "input": "How did Fatima react when Santiago told her about his love and his quest for treasure?",
+      "expected_contexts": [
+        "'And I am a part of your dream, a part of your destiny, as you call it. That's why I want you to continue toward your goal. If you have to wait until the war is over, then wait. But if you have to go before then, go on in pursuit of your dream. The dunes are changed by the wind, but the desert never changes. That's the way it will be with our love for each other. Maktub,' she said. 'If I am really a part of your dream, you'll come back one day.'"
+      ],
+      "retrieved_contexts": [
+        "\"The war is going to end someday,\" the girl said. \n\nThe boy looked around him at the date palms. He reminded himself that he had been a shepherd, and \nthat he could be a shepherd again. Fatima was more important than his treasure. \n\n\"The tribesmen are always in search of treasure,\" the girl said, as if she had guessed what he was \nthinking. \"And the women of the desert are proud of their tribesmen.\" \n\nShe refilled her vessel and left.",
+        "\"I want to stay at the oasis,\" the boy answered. \"I've found Fatima, and, as far as I'm concerned, she's \nworth more than treasure.\" \n\n\"Fatima is a woman of the desert,\" said the alchemist. \"She knows that men have to go away in order to \nreturn. And she already has her treasure: it's you. Now she expects that you will find what it is you're \nlooking for.\" \n\n\"Well, what if I decide to stay?\"",
+        "He wandered for a while, keeping the date palms of the oasis within sight. He listened to the wind, and \nfelt the stones beneath his feet. Here and there, he found a shell, and realized that the desert, in remote \ntimes, had been a sea. He sat on a stone, and allowed himself to become hypnotized by the horizon. He \ntried to deal with the concept of love as distinct from possession, and couldn't separate them. But Fatima \nwas a woman of the desert, and, if anything could help him to understand, it was the desert.",
+        "\"Maktub ,\" she said. \"If I am really a part of your dream, you'll come back one day.\" \n\nThe boy was sad as he left her that day. He thought of all the married shepherds he had known. They \nhad a difficult time convincing their wives that they had to go off into distant fields. Love required them to \nstay with the people they loved. \n\nHe told Fatima that, at their next meeting.",
+        "\"Why was that so important?\" \n\n\"Because the Pyramids are surrounded by the desert.\" \n\nThe boy didn't want to talk about the Pyramids. His heart was heavy, and he had been melancholy since \nthe previous night. To continue his search for the treasure meant that he had to abandon Fatima. \n\n\"I'm going to guide you across the desert,\" the alchemist said. \n\n\"I want to stay at the oasis,\" the boy answered. \"I've found Fatima, and, as far as I'm concerned, she's \nworth more than treasure.\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.25
+      }
+    },
+    {
+      "case_id": 24,
+      "input": "What Biblical figure did the oasis chieftain compare Santiago to after hearing his warning of the attack?",
+      "expected_contexts": [
+        "'Two thousand years ago, in a distant land, a man who believed in dreams was thrown into a dungeon and then sold as a slave,' the old man said... 'When the pharaoh dreamed of cows that were thin and cows that were fat, this man I'm speaking of rescued Egypt from famine. His name was Joseph. He, too, was a stranger in a strange land, like you, and he was probably about your age.'"
+      ],
+      "retrieved_contexts": [
+        "the ground. \n\n\"A practice of infidels,\" he said to himself. As a child in church, he had always looked at the image of \nSaint Santiago Matamoros on his white horse, his sword unsheathed, and figures such as these kneeling \nat his feet. The boy felt ill and terribly alone. The infidels had an evil look about them. \n\nBesides this, in the rush of his travels he had forgotten a detail, just one detail, which could keep him \nfrom his treasure for a long time: only Arabic was spoken in this country.",
+        "The tribal chieftain said that he felt sorry for the tribesmen, but that the Tradition was sacred. He \ncondemned the commander to death without honor. Rather than being killed by a blade or a bullet, he \nwas hanged from a dead palm tree, where his body twisted in the desert wind. \n\nThe tribal chieftain called for the boy, and presented him with fifty pieces of gold. He repeated his story \nabout Joseph of Egypt, and asked the boy to become the counselor of the oasis.",
+        "\"Why would the desert reveal such things to a stranger, when it knows that we have been here for \ngenerations?\" said another of the chieftains. \n\n\"Because my eyes are not yet accustomed to the desert,\" the boy said. \"I can see things that eyes \nhabituated to the desert might not see.\" \n\nAnd also because I know about the Soul of the World, he thought to himself. \n\n\"The oasis is neutral ground. No one attacks an oasis,\" said a third chieftain. \n\n\"I can only tell you what I saw. If you don't want to believe me, you don't have to do anything about it.\"",
+        "There were eight chieftains, but the boy could see immediately which of them was the most important: an \nArab dressed in white and gold, seated at the center of the semicircle. At his side was the young Arab \nthe boy had spoken with earlier. \n\n\"Who is this stranger who speaks of omens?\" asked one of the chieftains, eyeing the boy. \n\n\"It is I,\" the boy answered. And he told what he had seen. \n\n\n\n\"Why would the desert reveal such things to a stranger, when it knows that we have been here for \ngenerations?\" said another of the chieftains.",
+        "Another man appeared. He was older, and was carrying a small bucket. The boy repeated his question. \n\n\"Why do you want to find that sort of person?\" the Arab asked. \n\n\n\n\"Because my friend here has traveled for many months in order to meet with him,\" the boy said. \n\n\"If such a man is here at the oasis, he must be the very powerful one,\" said the old man after thinking for \na few moments. \"Not even the tribal chieftains are able to see him when they want to. Only when he \nconsents."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.25
+      }
+    },
+    {
+      "case_id": 25,
+      "input": "What condition did the tribal chieftains set for Santiago when preparing for the oasis raid?",
+      "expected_contexts": [
+        "'Tomorrow, we are going to break the agreement that says that no one at the oasis may carry arms... For every ten dead men among our enemies, you will receive a piece of gold. But arms cannot be drawn unless they also go into battle... If at least one of them hasn't been used by the end of the day tomorrow, one will be used on you.'"
+      ],
+      "retrieved_contexts": [
+        "The tribal chieftain said that he felt sorry for the tribesmen, but that the Tradition was sacred. He \ncondemned the commander to death without honor. Rather than being killed by a blade or a bullet, he \nwas hanged from a dead palm tree, where his body twisted in the desert wind. \n\nThe tribal chieftain called for the boy, and presented him with fifty pieces of gold. He repeated his story \nabout Joseph of Egypt, and asked the boy to become the counselor of the oasis.",
+        "With some difficulty, the leader of the caravan brought all his people together and gave them his \ninstructions. The group was to remain there at the oasis until the conflict between the tribes was over. \nSince they were visitors, they would have to share living space with those who lived there, and would be \ngiven the best accommodations. That was the law of hospitality. Then he asked that everyone, including \nhis own sentinels, hand over their arms to the men appointed by the tribal chieftains.",
+        "The only tribesman spared was the commander of the battalion. That afternoon, he was brought before \nthe tribal chieftains, who asked him why he had violated the Tradition. The commander said that his men \nhad been starving and thirsty, exhausted from many days of battle, and had decided to take the oasis so \nas to be able to return to the war.",
+        "There were eight chieftains, but the boy could see immediately which of them was the most important: an \nArab dressed in white and gold, seated at the center of the semicircle. At his side was the young Arab \nthe boy had spoken with earlier. \n\n\"Who is this stranger who speaks of omens?\" asked one of the chieftains, eyeing the boy. \n\n\"It is I,\" the boy answered. And he told what he had seen. \n\n\n\n\"Why would the desert reveal such things to a stranger, when it knows that we have been here for \ngenerations?\" said another of the chieftains.",
+        "The men of the oasis surrounded the horsemen from the desert and within half an hour all but one of the \nintruders were dead. The children had been kept at the other side of a grove of palm trees, and saw \nnothing of what had happened. The women had remained in their tents, praying for the safekeeping of \ntheir husbands, and saw nothing of the battle, either. Were it not for the bodies there on the ground, it \nwould have appeared to be a normal day at the oasis."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 26,
+      "input": "What punishment was given to the commander of the enemy battalion that attacked the oasis?",
+      "expected_contexts": [
+        "The tribal chieftain said that he felt sorry for the tribesmen, but that the Tradition was sacred. He condemned the commander to death without honor. Rather than being killed by a blade or a bullet, he was hanged from a dead palm tree, where his body twisted in the desert wind."
+      ],
+      "retrieved_contexts": [
+        "The men of the oasis surrounded the horsemen from the desert and within half an hour all but one of the \nintruders were dead. The children had been kept at the other side of a grove of palm trees, and saw \nnothing of what had happened. The women had remained in their tents, praying for the safekeeping of \ntheir husbands, and saw nothing of the battle, either. Were it not for the bodies there on the ground, it \nwould have appeared to be a normal day at the oasis.",
+        "Suddenly, one of the hawks made a flashing dive through the sky, attacking the other. As it did so, a \nsudden, fleeting image came to the boy: an army, with its swords at the ready, riding into the oasis. The \nvision vanished immediately, but it had shaken him. He had heard people speak of mirages, and had \nalready seen some himself: they were desires that, because of their intensity, materialized over the sands \nof the desert. But he certainly didn't desire that an army invade the oasis.",
+        "The only tribesman spared was the commander of the battalion. That afternoon, he was brought before \nthe tribal chieftains, who asked him why he had violated the Tradition. The commander said that his men \nhad been starving and thirsty, exhausted from many days of battle, and had decided to take the oasis so \nas to be able to return to the war.",
+        "The tribal chieftain said that he felt sorry for the tribesmen, but that the Tradition was sacred. He \ncondemned the commander to death without honor. Rather than being killed by a blade or a bullet, he \nwas hanged from a dead palm tree, where his body twisted in the desert wind. \n\nThe tribal chieftain called for the boy, and presented him with fifty pieces of gold. He repeated his story \nabout Joseph of Egypt, and asked the boy to become the counselor of the oasis.",
+        "They were surrounded by children, curious to look at the animals and people that were arriving. The \nmen of the oasis wanted to know if they had seen any fighting, and the women competed with one \nanother for access to the cloth and precious stones brought by the merchants. The silence of the desert \nwas a distant dream; the travelers in the caravan were talking incessantly, laughing and shouting, as if they \nhad emerged from the spiritual world and found themselves once again in the world of people. They were \nrelieved and happy."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.5833
+      }
+    },
+    {
+      "case_id": 27,
+      "input": "How did the alchemist test Santiago's ability to find life in the desert?",
+      "expected_contexts": [
+        "He said to the boy, 'Show me where there is life out in the desert. Only those who can see such signs of life are able to find treasure.'... 'There's life here,' the boy said to the alchemist. 'I don't know the language of the desert, but my horse knows the language of life.' They dismounted... The alchemist stopped abruptly... In his hand, he grasped a snake by the tail... It was a cobra, whose venom could kill a person in minutes."
+      ],
+      "retrieved_contexts": [
+        "They began to ride out over the sands, with the moon lighting their way. I don't know if I'll be able to \nfind life in the desert, the boy thought. I don't know the desert that well yet. \n\nHe wanted to say so to the alchemist, but he was afraid of the man. They reached the rocky place where \nthe boy had seen the hawks in the sky, but now there was only silence and the wind. \n\n\"I don't know how to find life in the desert,\" the boy said. \"I know that there is life here, but I don't know \nwhere to look.\" \n\n\"Life attracts life,\" the alchemist answered.",
+        "\"How do I immerse myself in the desert?\" \n\n\"Listen to your heart. It knows all things, because it came from the Soul of the World, and it will one day \nreturn there.\" \n\n\n\nThey crossed the desert for another two days in silence. The alchemist had become much more cautious, \nbecause they were approaching the area where the most violent battles were being waged. As they \nmoved along, the boy tried to listen to his heart.",
+        "The desert didn't answer him for a few moments. \n\nThen it told him, \"I'll give you my sands to help the wind to blow, but, alone, I can't do anything. You \nhave to ask for help from the wind.\" \n\nA breeze began to blow. The tribesmen watched the boy from a distance, talking among themselves in a \nlanguage that the boy couldn't understand. \n\nThe alchemist smiled. \n\n\n\nThe wind approached the boy and touched his face. It knew of the boy's talk with the desert, because \nthe winds know everything. They blow across the world without a birthplace, and with no place to die.",
+        "\"Life attracts life,\" the alchemist answered. \n\nAnd then the boy understood. He loosened the reins on his horse, who galloped forward over the rocks \nand sand. The alchemist followed as the boy's horse ran for almost half an hour. They could no longer \nsee the palms of the oasis — only the gigantic moon above them, and its silver reflections from the stones \nof the desert. Suddenly, for no apparent reason, the boy's horse began to slow. \n\n\"There's life here,\" the boy said to the alchemist. \"I don't know the language of the desert, but my horse \nknows the language of life.\"",
+        "If he wanted to, he could now return to the oasis, go back to Fatima, and live his life as a simple \nshepherd. After all, the alchemist continued to live in the desert, even though he understood the Language \nof the World, and knew how to transform lead into gold. He didn't need to demonstrate his science and \nart to anyone. The boy told himself that, on the way toward realizing his own destiny, he had learned all \nhe needed to know, and had experienced everything he might have dreamed of."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 28,
+      "input": "Why did the alchemist tell the searching tribesmen the literal truth about his Philosopher's Stone and Elixir of Life?",
+      "expected_contexts": [
+        "'That's the Philosopher's Stone and the Elixir of Life. It's the Master Work of the alchemists... The Arabs laughed at him, and the alchemist laughed along... 'To show you one of life's simple lessons,' the alchemist answered. 'When you possess great treasures within you, and try to tell others of them, seldom are you believed.'"
+      ],
+      "retrieved_contexts": [
+        "\"It's not easy to find the Philosopher's Stone,\" said the Englishman. \"The alchemists spent years in their \nlaboratories, observing the fire that purified the metals. They spent so much time close to the fire that \ngradually they gave up the vanities of the world. They discovered that the purification of the metals had \nled to a purification of themselves.\"",
+        "But then he stopped. The alchemist probably already knew all that. \n\n\"I have known true alchemists,\" the alchemist continued. \"They locked themselves in their laboratories, \nand tried to evolve, as gold had. And they found the Philosopher's Stone, because they understood that \nwhen something evolves, everything around that thing evolves as well. \n\n\"Others stumbled upon the stone by accident. They already had the gift, and their souls were readier for \nsuch things than the souls of others. But they don't count. They're quite rare.",
+        "a point beyond which he could not seem to go. He had tried in vain to establish a relationship with an \nalchemist. But the alchemists were strange people, who thought only about themselves, and almost \nalways refused to help him. Who knows, maybe they had failed to discover the secret of the Master \nWork — the Philosopher's Stone — and for this reason kept their knowledge to themselves.",
+        "he had discovered the Philosopher's Stone and the Elixir of Life. The Englishman had been profoundly \nimpressed by the story. But he would never have thought it more than just a myth, had not a friend of \nhis — retorting from an archaeological expedition in the desert — told him about an Arab that was \npossessed of exceptional powers.",
+        "He had already spent much of the fortune left to him by his father, fruitlessly seeking the Philosopher's \nStone. He had spent enormous amounts of time at the great libraries of the world, and had purchased all \nthe rarest and most important volumes on alchemy. In one he had read that, many years ago, a famous \nArabian alchemist had visited Europe. It was said that he was more than two hundred years old, and that \nhe had discovered the Philosopher's Stone and the Elixir of Life. The Englishman had been profoundly"
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 29,
+      "input": "What challenge did the alchemist propose to save their lives when captured by warrior tribesmen?",
+      "expected_contexts": [
+        "'He needs three days,' answered the alchemist. 'He is going to transform himself into the wind, just to demonstrate his powers. If he can't do so, we humbly offer you our lives, for the honor of your tribe.'"
+      ],
+      "retrieved_contexts": [
+        "\"Don't let them see that you're afraid,\" the alchemist said. \"They are brave men, and they despise \ncowards.\" \n\nBut the boy couldn't even speak. He was able to do so only after they had walked through the center of \nthe camp. There was no need to imprison them: the Arabs simply confiscated their horses. So, once \nagain, the world had demonstrated its many languages: the desert only moments ago had been endless \nand free, and now it was an impenetrable wall. \n\n\"You gave them everything I had!\" the boy said. \"Everything I've saved in my entire life!\"",
+        "\"These are the spies,\" said one of the men. \n\n\"We're just travelers,\" the alchemist answered. \n\n\"You were seen at the enemy camp three days ago. And you were talking with one of the troops there.\" \n\n\"I'm just a man who wanders the desert and knows the stars,\" said the alchemist. \"I have no information \nabout troops or about the movement of the tribes. I was simply acting as a guide for my friend here.\" \n\n\"Who is your friend?\" the chief asked. \n\n\"An alchemist,\" said the alchemist. \"He understands the forces of nature. And he wants to show you his \nextraordinary powers.\"",
+        "\"I want to see him do it,\" said the chief. \n\n\"He needs three days,\" answered the alchemist. \"He is going to transform himself into the wind, just to \ndemonstrate his powers. If he can't do so, we humbly offer you our lives, for the honor of your tribe.\" \n\n\"You can't offer me something that is already mine,\" the chief said, arrogantly. But he granted the \ntravelers three days. \n\nThe boy was shaking with fear, but the alchemist helped him out of the tent. \n\n\"Don't let them see that you're afraid,\" the alchemist said. \"They are brave men, and they despise \ncowards.\"",
+        "The Arab accepted them without a word. There was enough there to buy a lot of weapons. \n\n\"What is an alchemist?\" he asked, finally. \n\n\"It's a man who understands nature and the world. If he wanted to, he could destroy this camp just with \nthe force of the wind.\" \n\nThe men laughed. They were used to the ravages of war, and knew that the wind could not deliver them \na fatal blow. Yet each felt his heart beat a bit faster. They were men of the desert, and they were fearful \nof sorcerers. \n\n\"I want to see him do it,\" said the chief.",
+        "\"But don't worry,\" the alchemist continued. \"Usually the threat of death makes people a lot more aware \nof their lives.\" \n\n\n\nThe first day passed. There was a major battle nearby, and a number of wounded were brought back to \nthe camp. The dead soldiers were replaced by others, and life went on. Death doesn't change anything, \nthe boy thought. \n\n\"You could have died later on,\" a soldier said to the body of one of his companions. \"You could have \ndied after peace had been declared. But, in any case, you were going to die.\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.8333
+      }
+    },
+    {
+      "case_id": 30,
+      "input": "What entities did Santiago converse with when attempting to turn himself into the wind?",
+      "expected_contexts": [
+        "'What do you want here today?' the desert asked him... The wind approached the boy and touched his face... 'The wind told me that you know about love,' the boy said to the sun... The boy turned to the hand that wrote all."
+      ],
+      "retrieved_contexts": [
+        "The wind's curiosity was aroused, something that had never happened before. It wanted to talk about \nthose things, but it didn't know how to turn a man into the wind. And look how many things the wind \nalready knew how to do! It created deserts, sank ships, felled entire forests, and blew through cities filled \nwith music and strange noises. It felt that it had no limits, yet here was a boy saying that there were other \nthings the wind should be able to do.",
+        "the ground. \n\n\"A practice of infidels,\" he said to himself. As a child in church, he had always looked at the image of \nSaint Santiago Matamoros on his white horse, his sword unsheathed, and figures such as these kneeling \nat his feet. The boy felt ill and terribly alone. The infidels had an evil look about them. \n\nBesides this, in the rush of his travels he had forgotten a detail, just one detail, which could keep him \nfrom his treasure for a long time: only Arabic was spoken in this country.",
+        "The wind was a proud being, and it was becoming irritated with what the boy was saying. It commenced \nto blow harder, raising the desert sands. But finally it had to recognize that, even making its way around \nthe world, it didn't know how to turn a man into the wind. And it knew nothing about love. \n\n\"In my travels around the world, I've often seen people speaking of love and looking toward the \nheavens,\" the wind said, furious at having to acknowledge its own limitations. \"Maybe it's better to ask \nheaven.\"",
+        "The wind has many names. In that part of the world, it was called the sirocco, because it brought \nmoisture from the oceans to the east. In the distant land the boy came from, they called it the levanter, \nbecause they believed that it brought with it the sands of the desert, and the screams of the Moorish \nwars. Perhaps, in the places beyond the pastures where his sheep lived, men thought that the wind came \nfrom Andalusia. But, actually, the wind came from no place at all, nor did it go to any place; that's why it",
+        "of the freedom of the wind, and saw that he could have the same freedom. There was nothing to hold him \nback except himself. The sheep, the merchant's daughter, and the fields of Andalusia were only steps \nalong the way to his destiny."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 31,
+      "input": "How did the alchemist divide the gold disk he created at the Coptic monastery?",
+      "expected_contexts": [
+        "There, the alchemist separated the disk into four parts. 'This is for you,' he said, holding one of the parts out to the monk. 'It's for your generosity to the pilgrims.'... The alchemist turned to the boy. 'This is for you. To make up for what you gave to the general.'... 'And this is for me,' said the alchemist, keeping one of the parts... He took the fourth part and handed it to the monk. 'This is for the boy. If he ever needs it.'"
+      ],
+      "retrieved_contexts": [
+        "The alchemist fell as silent as the desert, and answered the boy only after they had stopped to eat. \n\n\"Everything in the universe evolved,\" he said. \"And, for wise men, gold is the metal that evolved the \nfurthest. Don't ask me why; I don't know why. I just know that the Tradition is always right. \n\n\"Men have never understood the words of the wise. So gold, instead of being seen as a symbol of \nevolution, became the basis for conflict.\"",
+        "\"Exactly,\" answered the alchemist. \n\n\n\nWhen the pan had cooled, the monk and the boy looked at it, dazzled. The lead had dried into the shape \nof the pan, but it was no longer lead. It was gold. \n\n\"Will I learn to do that someday?\" the boy asked. \n\n\"This was my destiny, not yours,\" the alchemist answered. \"But I wanted to show you that it was \npossible.\" \n\nThey returned to the gates of the monastery. There, the alchemist separated the disk into four parts. \n\n\"This is for you,\" he said, holding one of the parts out to the monk. \"It's for your generosity to the \npilgrims.\"",
+        "\"If we're going to go our separate ways soon,\" the boy said, \"then teach me about alchemy.\" \n\n\"You already know about alchemy. It is about penetrating to the Soul of the World, and discovering the \ntreasure that has been reserved for you.\" \n\n\"No, that's not what I mean. I'm talking about transforming lead into gold.\" \n\nThe alchemist fell as silent as the desert, and answered the boy only after they had stopped to eat.",
+        "\"It's not easy to find the Philosopher's Stone,\" said the Englishman. \"The alchemists spent years in their \nlaboratories, observing the fire that purified the metals. They spent so much time close to the fire that \ngradually they gave up the vanities of the world. They discovered that the purification of the metals had \nled to a purification of themselves.\"",
+        "If he wanted to, he could now return to the oasis, go back to Fatima, and live his life as a simple \nshepherd. After all, the alchemist continued to live in the desert, even though he understood the Language \nof the World, and knew how to transform lead into gold. He didn't need to demonstrate his science and \nart to anyone. The boy told himself that, on the way toward realizing his own destiny, he had learned all \nhe needed to know, and had experienced everything he might have dreamed of."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.8333
+      }
+    },
+    {
+      "case_id": 32,
+      "input": "What omen appeared when Santiago reached the Pyramids and began to weep?",
+      "expected_contexts": [
+        "The boy looked at the sands around him, and saw that, where his tears had fallen, a scarab beetle was scuttling through the sand. During his time in the desert, he had learned that, in Egypt, the scarab beetles are a symbol of God. Another omen! The boy began to dig into the dune."
+      ],
+      "retrieved_contexts": [
+        "\"No,\" he heard a voice on the wind say. \"If I had told you, you wouldn't have seen the Pyramids. \nThey're beautiful, aren't they?\" \n\nThe boy smiled, and continued digging. Half an hour later, his shovel hit something solid. An hour later, \nhe had before him a chest of Spanish gold coins. There were also precious stones, gold masks adorned \nwith red and white feathers, and stone statues embedded with jewels. The spoils of a conquest that the \ncountry had long ago forgotten, and that some conquistador had failed to tell his children about.",
+        "And they disappeared. \n\n\n\nThe boy stood up shakily, and looked once more at the Pyramids. They seemed to laugh at him, and he \nlaughed back, his heart bursting with joy. \n\nBecause now he knew where his treasure was. \n\n\n\nEPILOGUE \n\n\n\nThe boy reached the small, abandoned church just as night was falling. The sycamore was still there in \nthe sacristy, and the stars could still be seen through the half-destroyed roof. He remembered the time he \nhad been there with his sheep; it had been a peaceful night. . . except for the dream. \n\nNow he was here not with his flock, but with a shovel.",
+        "It made the boy think of the old king, and it startled him to realize how long it had been since he had \nthought of him. For nearly a year, he had been working incessantly, thinking only of putting aside enough \nmoney so that he could return to Spain with pride. \n\n\"Never stop dreaming,\" the old king had said. \"Follow the omens.\" \n\nThe boy picked up Urim and Thummim, and, once again, had the strange sensation that the old king was \nnearby. He had worked hard for a year, and the omens were that it was time to go.",
+        "And he went on, fearing that the boy wouldn't understand what he was talking about, \"It's in the Bible. \nThe same book that taught me about Urim and Thummim. These stones were the only form of divination \npermitted by God. The priests carried them in a golden breastplate.\" \n\nThe boy was suddenly happy to be there at the warehouse. \n\n\"Maybe this is an omen,\" said the Englishman, half aloud. \n\n\"Who told you about omens?\" The boy's interest was increasing by the moment.",
+        "\"Why did you want to get to the Pyramids?\" he asked, to get away from the business of the display. \n\n\"Because I've always heard about them,\" the boy answered, saying nothing about his dream. The \ntreasure was now nothing but a painful memory, and he tried to avoid thinking about it. \n\n\"I don't know anyone around here who would want to cross the desert just to see the Pyramids,\" said \nthe merchant. \"They're just a pile of stones. You could build one in your backyard.\" \n\n\"You've never had dreams of travel,\" said the boy, turning to wait on a customer who had entered the \nshop."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.5
+      }
+    },
+    {
+      "case_id": 33,
+      "input": "How did the refugee leader at the Pyramids inadvertently reveal where the treasure was hidden?",
+      "expected_contexts": [
+        "'Two years ago, right here on this spot, I had a recurrent dream, too. I dreamed that I should travel to the fields of Spain and look for a ruined church where shepherds and their sheep slept. In my dream, there was a sycamore growing out of the ruins of the sacristy, and I was told that, if I dug at the roots of the sycamore, I would find a hidden treasure. But I'm not so stupid as to cross an entire desert just because of a recurrent dream.'"
+      ],
+      "retrieved_contexts": [
+        "He was planning as he left the bar. He had remembered that one of the crystal merchant's suppliers \ntransported his crystal by means of caravans that crossed the desert. He held Urim and Thummim in his \nhand; because of those two stones, he was once again on the way to his treasure. \n\n\"I am always nearby, when someone wants to realize their destiny,\" the old king had told him. \n\nWhat could it cost to go over to the supplier's warehouse and find out if the Pyramids were really that far \naway?",
+        "\"Why did you want to get to the Pyramids?\" he asked, to get away from the business of the display. \n\n\"Because I've always heard about them,\" the boy answered, saying nothing about his dream. The \ntreasure was now nothing but a painful memory, and he tried to avoid thinking about it. \n\n\"I don't know anyone around here who would want to cross the desert just to see the Pyramids,\" said \nthe merchant. \"They're just a pile of stones. You could build one in your backyard.\" \n\n\"You've never had dreams of travel,\" said the boy, turning to wait on a customer who had entered the \nshop.",
+        "\"No,\" he heard a voice on the wind say. \"If I had told you, you wouldn't have seen the Pyramids. \nThey're beautiful, aren't they?\" \n\nThe boy smiled, and continued digging. Half an hour later, his shovel hit something solid. An hour later, \nhe had before him a chest of Spanish gold coins. There were also precious stones, gold masks adorned \nwith red and white feathers, and stone statues embedded with jewels. The spoils of a conquest that the \ncountry had long ago forgotten, and that some conquistador had failed to tell his children about.",
+        "What could it cost to go over to the supplier's warehouse and find out if the Pyramids were really that far \naway? \n\n\n\nThe Englishman was sitting on a bench in a structure that smelled of animals, sweat, and dust; it was part \nwarehouse, part corral. I never thought I'd end up in a place like this, he thought, as he leafed through the \npages of a chemical journal. Ten years at the university, and here I am in a corral.",
+        "\"The child went on playing with my sheep for quite a while,\" continued the boy, a bit upset. \"And \nsuddenly, the child took me by both hands and transported me to the Egyptian pyramids.\" \n\nHe paused for a moment to see if the woman knew what the Egyptian pyramids were. But she said \nnothing. \n\n\"Then, at the Egyptian pyramids,\" — he said the last three words slowly, so that the old woman would \nunderstand — \"the child said to me, If you come here, you will find a hidden treasure.' And, just as she \nwas about to show me the exact location, I woke up. Both times.\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 34,
+      "input": "What did Santiago discover inside the buried chest beneath the sycamore tree?",
+      "expected_contexts": [
+        "An hour later, he had before him a chest of Spanish gold coins. There were also precious stones, gold masks adorned with red and white feathers, and stone statues embedded with jewels. The spoils of a conquest that the country had long ago forgotten, and that some conquistador had failed to tell his children about."
+      ],
+      "retrieved_contexts": [
+        "And they disappeared. \n\n\n\nThe boy stood up shakily, and looked once more at the Pyramids. They seemed to laugh at him, and he \nlaughed back, his heart bursting with joy. \n\nBecause now he knew where his treasure was. \n\n\n\nEPILOGUE \n\n\n\nThe boy reached the small, abandoned church just as night was falling. The sycamore was still there in \nthe sacristy, and the stars could still be seen through the half-destroyed roof. He remembered the time he \nhad been there with his sheep; it had been a peaceful night. . . except for the dream. \n\nNow he was here not with his flock, but with a shovel.",
+        "was told that, if I dug at the roots of the sycamore, I would find a hidden treasure. But I'm not so stupid \nas to cross an entire desert just because of a recurrent dream.\"",
+        "The boy was surprised at his thoughts. Maybe the church, with the sycamore growing from within, had \nbeen haunted. It had caused him to have the same dream for a second time, and it was causing him to \nfeel anger toward his faithful companions. He drank a bit from the wine that remained from his dinner of \nthe night before, and he gathered his jacket closer to his body. He knew that a few hours from now, with \nthe sun at its zenith, the heat would be so great that he would not be able to lead his flock across the",
+        "\"No,\" he heard a voice on the wind say. \"If I had told you, you wouldn't have seen the Pyramids. \nThey're beautiful, aren't they?\" \n\nThe boy smiled, and continued digging. Half an hour later, his shovel hit something solid. An hour later, \nhe had before him a chest of Spanish gold coins. There were also precious stones, gold masks adorned \nwith red and white feathers, and stone statues embedded with jewels. The spoils of a conquest that the \ncountry had long ago forgotten, and that some conquistador had failed to tell his children about.",
+        "He fell asleep, and when he awoke the sun was already high. He began to dig at the base of the \nsycamore. \n\n\"You old sorcerer,\" the boy shouted up to the sky. \"You knew the whole story. You even left a bit of \ngold at the monastery so I could get back to this church. The monk laughed when he saw me come back \nin tatters. Couldn't you have saved me from that?\" \n\n\"No,\" he heard a voice on the wind say. \"If I had told you, you wouldn't have seen the Pyramids. \nThey're beautiful, aren't they?\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.5833
+      }
+    },
+    {
+      "case_id": 35,
+      "input": "Where did Santiago plan to go immediately after retrieving his treasure in the epilogue?",
+      "expected_contexts": [
+        "Then he remembered that he had to get to Tarifa so he could give one-tenth of his treasure to the Gypsy woman, as he had promised... Instead, it brought the scent of a perfume he knew well, and the touch of a kiss — a kiss that came from far away, slowly, slowly, until it rested on his lips. The boy smiled. It was the first time she had done that. 'I'm coming, Fatima,' he said."
+      ],
+      "retrieved_contexts": [
+        "\"I'm an adventurer, looking for treasure,\" he said to himself. \n\n\n\nHe was shaken into wakefulness by someone. He had fallen asleep in the middle of the marketplace, and \nlife in the plaza was about to resume.",
+        "\"No,\" he heard a voice on the wind say. \"If I had told you, you wouldn't have seen the Pyramids. \nThey're beautiful, aren't they?\" \n\nThe boy smiled, and continued digging. Half an hour later, his shovel hit something solid. An hour later, \nhe had before him a chest of Spanish gold coins. There were also precious stones, gold masks adorned \nwith red and white feathers, and stone statues embedded with jewels. The spoils of a conquest that the \ncountry had long ago forgotten, and that some conquistador had failed to tell his children about.",
+        "The old man returned the book to the boy. \n\n\"Tomorrow, at this same time, bring me a tenth of your flock. And I will tell you how to find the hidden \ntreasure. Good afternoon.\" \n\nAnd he vanished around the comer of the plaza.",
+        "He opened his pouch to see what was left of his possessions; maybe there was a bit left of the sandwich \nhe had eaten on the ship. But all he found was the heavy book, his jacket, and the two stones the old \nman had given him.",
+        "He decided to return to his friend's stable by the longest route possible. As he walked past the city's \ncastle, he interrupted his return, and climbed the stone ramp that led to the top of the wall. From there, he \ncould see Africa in the distance. Someone had once told him that it was from there that the Moors had \ncome, to occupy all of Spain."
+      ],
+      "scores": {
+        "contextual_recall": 0.0,
+        "contextual_precision": 0.0
+      }
+    }
+  ]
+}

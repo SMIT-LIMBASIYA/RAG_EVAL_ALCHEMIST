@@ -1,0 +1,98 @@
+{
+  "summary": {
+    "total_cases": 5,
+    "judge_model": "gpt-4o-mini",
+    "average_contextual_recall": 0.6,
+    "average_contextual_precision": 0.4,
+    "recall_threshold": 0.7,
+    "precision_threshold": 0.7,
+    "passed": false
+  },
+  "test_cases": [
+    {
+      "case_id": 1,
+      "input": "Who gave Santiago the two stones Urim and Thummim and what is their purpose?",
+      "expected_contexts": [
+        "The old king took two stones out of his breastplate, one white and one black. 'They are called Urim and Thummim. The black signifies yes, and the white no. When you are unable to read the omens, they will help you to do so. Always ask an objective question.'"
+      ],
+      "retrieved_contexts": [
+        "The boy took out Urim and Thummim from his bag. He had used the two stones only once, one morning \nwhen he was at a marketplace. His life and his path had always provided him with enough omens. \n\nHe placed Urim and Thummim in the chest. They were also a part of his new treasure, because they \nwere a reminder of the old king, whom he would never see again.",
+        "He took out one of the stones. It was \"yes.\" \n\n\n\n\"Am I going to find my treasure?\" he asked. \n\nHe stuck his hand into the pouch, and felt around for one of the stones. As he did so, both of them \npushed through a hole in the pouch and fell to the ground. The boy had never even noticed that there was \na hole in his pouch. He knelt down to find Urim and Thummim and put them back in the pouch. But as he \nsaw them lying there on the ground, another phrase came to his mind.",
+        "He really was a king! He must be disguised to avoid encounters with thieves. \n\n\"Take these,\" said the old man, holding out a white stone and a black stone that had been embedded at \nthe center of the breastplate. \"They are called Urim and Thummim. The black signifies 'yes,' and the white \n'no.' When you are unable to read the omens, they will help you to do so. Always ask an objective \nquestion.",
+        "\"They're called Urim and Thummim, and they can help you to read the omens.\" The boy put the stones \nback in the pouch and decided to do an experiment. The old man had said to ask very clear questions, \nand to do that, the boy had to know what he wanted. So, he asked if the old man's blessing was still with \nhim. \n\nHe took out one of the stones. It was \"yes.\" \n\n\n\n\"Am I going to find my treasure?\" he asked."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 2,
+      "input": "What did Santiago do to improve the crystal merchant's business in Tangier?",
+      "expected_contexts": [
+        "The boy suggested building a display case outside the shop to attract people passing by, and later suggested selling tea in crystal glasses to customers climbing the hill."
+      ],
+      "retrieved_contexts": [
+        "But, as time passed, Tangier had changed. The nearby city of Ceuta had grown faster than Tangier, and \nbusiness had fallen off. Neighbors moved away, and there remained only a few small shops on the hill. \nAnd no one was going to climb the hill just to browse through a few small shops. \n\nBut the crystal merchant had no choice. He had lived thirty years of his life buying and selling crystal \npieces, and now it was too late to do anything else.",
+        "The crystal merchant awoke with the day, and felt the same anxiety that he felt every morning. He had \nbeen in the same place for thirty years: a shop at the top of a hilly street where few customers passed. \nNow it was too late to change anything — the only thing he had ever learned to do was to buy and sell \ncrystal glassware. There had been a time when many people knew of his shop: Arab merchants, French",
+        "They walked together through the narrow streets of Tangier. Everywhere there were stalls with items for \nsale. They reached the center of a large plaza where the market was held. There were thousands of \npeople there, arguing, selling, and buying; vegetables for sale amongst daggers, and carpets displayed \nalongside tobacco. But the boy never took his eye off his new friend. After all, he had all his money. He",
+        "Before long, the news spread, and a great many people began to climb the hill to see the shop that was \ndoing something new in a trade that was so old. Other shops were opened that served tea in crystal, but \nthey weren't at the top of a hill, and they had little business. \n\nEventually, the merchant had to hire two more employees. He began to import enormous quantities of \ntea, along with his crystal, and his shop was sought out by men and women with a thirst for things new."
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 0.0
+      }
+    },
+    {
+      "case_id": 3,
+      "input": "What omen did Santiago observe in the desert oasis of Al-Fayoum that warned of an attack?",
+      "expected_contexts": [
+        "He saw two hawks flying high in the sky. As he watched their flight, one made a sudden, swift dive, and at that moment, the boy had a fleeting vision of an army with swords riding into the oasis."
+      ],
+      "retrieved_contexts": [
+        "Next morning, there were two thousand armed men scattered throughout the palm trees at Al-Fayoum. \nBefore the sun had reached its high point, five hundred tribesmen appeared on the horizon. The mounted \ntroops entered the oasis from the north; it appeared to be a peaceful expedition, but they all carried arms \nhidden in their robes. When they reached the white tent at the center of Al-Fayoum, they withdrew their \nscimitars and rifles. And they attacked an empty tent.",
+        "The boy thought of Fatima. And he decided he would go to see the chiefs of the tribes. \n\n\n\nThe boy approached the guard at the front of the huge white tent at the center of the oasis. \n\n\"I want to see the chieftains. I've brought omens from the desert.\"",
+        "asked you to stay, because a woman of the desert knows that she must await her man. So you won't \nblame her. But many times you'll walk the sands of the desert, thinking that maybe you could have left. . . \nthat you could have trusted more in your love for Fatima. Because what kept you at the oasis was your \nown fear that you might never come back. At that point, the omens will tell you that your treasure is \nburied forever.",
+        "\"I want to see the chieftains. I've brought omens from the desert.\" \n\nWithout responding, the guard entered the tent, where he remained for some time. When he emerged, it \nwas with a young Arab, dressed in white and gold. The boy told the younger man what he had seen, and \nthe man asked him to wait there. He disappeared into the tent."
+      ],
+      "scores": {
+        "contextual_recall": 0.0,
+        "contextual_precision": 0.0
+      }
+    },
+    {
+      "case_id": 4,
+      "input": "Where did Santiago ultimately find his treasure?",
+      "expected_contexts": [
+        "The boy dug at the roots of the sycamore tree at the abandoned church in Spain where he had once slept with his sheep. There he found a chest of Spanish gold coins, precious stones, and jewels."
+      ],
+      "retrieved_contexts": [
+        "The boy smiled, and continued digging. Half an hour later, his shovel hit something solid. An hour later, \nhe had before him a chest of Spanish gold coins. There were also precious stones, gold masks adorned \nwith red and white feathers, and stone statues embedded with jewels. The spoils of a conquest that the \ncountry had long ago forgotten, and that some conquistador had failed to tell his children about.",
+        "the ground. \n\n\"A practice of infidels,\" he said to himself. As a child in church, he had always looked at the image of \nSaint Santiago Matamoros on his white horse, his sword unsheathed, and figures such as these kneeling \nat his feet. The boy felt ill and terribly alone. The infidels had an evil look about them.",
+        "And they disappeared. \n\n\n\nThe boy stood up shakily, and looked once more at the Pyramids. They seemed to laugh at him, and he \nlaughed back, his heart bursting with joy. \n\nBecause now he knew where his treasure was. \n\n\n\nEPILOGUE",
+        "\"Where is the treasure?\" he asked. \n\n\"It's in Egypt, near the Pyramids.\" \n\nThe boy was startled. The old woman had said the same thing. But she hadn't charged him anything. \n\n\"In order to find the treasure, you will have to follow the omens. God has prepared a path for everyone \nto follow. You just have to read the omens that he left for you.\""
+      ],
+      "scores": {
+        "contextual_recall": 1.0,
+        "contextual_precision": 1.0
+      }
+    },
+    {
+      "case_id": 5,
+      "input": "What is the central concept of the 'Personal Legend' in The Alchemist?",
+      "expected_contexts": [
+        "It's what you have always wanted to accomplish. Everyone, when they are young, knows what their Personal Legend is. When you want something, all the universe conspires in helping you to achieve it."
+      ],
+      "retrieved_contexts": [
+        "\"I'm an alchemist simply because I'm an alchemist,\" he said, as he prepared the meal. \"I learned the \nscience from my grandfather, who learned from his father, and so on, back to the creation of the world. \nIn those times, the Master Work could be written simply on an emerald. But men began to reject simple \nthings, and to write tracts, interpretations, and philosophical studies. They also began to feel that they",
+        "The book that most interested the boy told the stories of the famous alchemists. They were men who \nhad dedicated their entire lives to the purification of metals in their laboratories; they believed that, if a \nmetal were heated for many years, it would free itself of all its individual properties, and what was left \nwould be the Soul of the World. This Soul of the World allowed them to understand anything on the face",
+        "\"Where your treasure is, there also will be your heart,\" the alchemist had told him. \n\nBut his heart was speaking of other things. With pride, it told the story of a shepherd who had left his \nflock to follow a dream he had on two different occasions. It told of destiny, and of the many men who \nhad wandered in search of distant lands or beautiful women, confronting the people of their times with \ntheir preconceived notions. It spoke of journeys, discoveries, books, and change.",
+        "\"Men have never understood the words of the wise. So gold, instead of being seen as a symbol of \nevolution, became the basis for conflict.\" \n\n\"There are many languages spoken by things,\" the boy said. \"There was a time when, for me, a camel's \nwhinnying was nothing more than whinnying. Then it became a signal of danger. And, finally, it became \njust a whinny again.\" \n\nBut then he stopped. The alchemist probably already knew all that."
+      ],
+      "scores": {
+        "contextual_recall": 0.0,
+        "contextual_precision": 0.0
+      }
+    }
+  ]
+}

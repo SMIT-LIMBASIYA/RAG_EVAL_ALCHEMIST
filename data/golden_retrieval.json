@@ -1,0 +1,247 @@
+[
+  {
+    "input": "Why did Santiago decide to become a shepherd instead of a priest?",
+    "expected_contexts": [
+      "He had studied Latin, Spanish, and theology. But ever since he had been a child, he had wanted to know the world, and this was much more important to him than knowing God and learning about man's sins. One afternoon, on a visit to his family, he had summoned up the courage to tell his father that he didn't want to become a priest. That he wanted to travel."
+    ],
+    "expected_output": "Santiago chose to become a shepherd because he had a strong desire to travel and see the world, which mattered more to him than studying theology to become a priest."
+  },
+  {
+    "input": "What did Santiago's father give him when Santiago chose to become a shepherd?",
+    "expected_contexts": [
+      "The next day, he gave his son a pouch that held three ancient Spanish gold coins. 'I found these one day in the fields. I wanted them to be a part of your inheritance. But use them to buy your flock. Take to the fields, and someday you'll learn that our countryside is the best, and our women the most beautiful.'"
+    ],
+    "expected_output": "Santiago's father gave him three ancient Spanish gold coins found in the fields so he could buy a flock of sheep and travel."
+  },
+  {
+    "input": "What recurrent dream led Santiago to seek out an interpreter in Tarifa?",
+    "expected_contexts": [
+      "'I dreamed that I was in a field with my sheep, when a child appeared and began to play with the animals... And suddenly, the child took me by both hands and transported me to the Egyptian pyramids... the child said to me, If you come here, you will find a hidden treasure.' And, just as she was about to show me the exact location, I woke up. Both times.'"
+    ],
+    "expected_output": "Santiago dreamed twice that a child playing with his sheep took him by the hand to the Egyptian pyramids and told him he would find a hidden treasure there."
+  },
+  {
+    "input": "What payment did the Gypsy dream interpreter demand from Santiago?",
+    "expected_contexts": [
+      "'I'm not going to charge you anything now,' she said. 'But I want one-tenth of the treasure, if you find it.' The boy laughed — out of happiness. He was going to be able to save the little money he had because of a dream about hidden treasure!"
+    ],
+    "expected_output": "The Gypsy woman required Santiago to swear that he would give her one-tenth of the treasure once he found it."
+  },
+  {
+    "input": "According to Melchizedek, what is the 'world's greatest lie'?",
+    "expected_contexts": [
+      "'It's this: that at a certain point in our lives, we lose control of what's happening to us, and our lives become controlled by fate. That's the world's greatest lie.'"
+    ],
+    "expected_output": "The world's greatest lie is the belief that people lose control over their own lives at a certain point and become entirely governed by fate."
+  },
+  {
+    "input": "How did Melchizedek convince Santiago that he possessed supernatural knowledge?",
+    "expected_contexts": [
+      "There, in the sand of the plaza of that small city, the boy read the names of his father and his mother and the name of the seminary he had attended. He read the name of the merchant's daughter, which he hadn't even known, and he read things he had never told anyone."
+    ],
+    "expected_output": "Melchizedek wrote secret details in the sand with a stick, including the names of Santiago's parents, the seminary he attended, the merchant's daughter's name, and unspoken secrets."
+  },
+  {
+    "input": "What story did Melchizedek tell to explain how he helps people realize their destiny?",
+    "expected_contexts": [
+      "The old man related that, the week before, he had been forced to appear before a miner, and had taken the form of a stone. The miner had abandoned everything to go mining for emeralds. For five years he had been working a certain river... The miner, with all the anger and frustration of his five fruitless years, picked up the stone and threw it aside. But he had thrown it with such force that it broke the stone it fell upon, and there, embedded in the broken stone, was the most beautiful emerald in the world."
+    ],
+    "expected_output": "He told the story of turning into a stone at the feet of a frustrated miner who had searched for five years; when the miner hurled the stone away, it shattered another rock to reveal the world's most beautiful emerald."
+  },
+  {
+    "input": "What price did Melchizedek demand from Santiago in exchange for information on the treasure?",
+    "expected_contexts": [
+      "'Give me one-tenth of your sheep,' said the old man, 'and I'll tell you how to find the hidden treasure.'... 'Tomorrow, at this same time, bring me a tenth of your flock. And I will tell you how to find the hidden treasure.'"
+    ],
+    "expected_output": "Melchizedek demanded one-tenth of Santiago's flock (six sheep) before telling him how to reach his treasure."
+  },
+  {
+    "input": "What is the 'principle of favorability' described by Melchizedek?",
+    "expected_contexts": [
+      "'That's the way it always is,' said the old man. 'It's called the principle of favorability. When you play cards the first time, you are almost sure to win. Beginner's luck.' 'Why is that?' 'Because there is a force that wants you to realize your destiny; it whets your appetite with a taste of success.'"
+    ],
+    "expected_output": "The principle of favorability, or beginner's luck, is an initial stroke of good fortune driven by a force that wants a person to realize their destiny by whetting their appetite with early success."
+  },
+  {
+    "input": "What lesson did the wise man teach in the story about the spoon with two drops of oil?",
+    "expected_contexts": [
+      "'Well, there is only one piece of advice I can give you,' said the wisest of wise men. 'The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.' The shepherd said nothing. He had understood the story the old king had told him. A shepherd may like to travel, but he should never forget about his sheep."
+    ],
+    "expected_output": "The secret of happiness is to admire and explore all the marvels of the world while never forgetting one's core responsibilities and obligations."
+  },
+  {
+    "input": "How did Santiago lose all his money upon arriving in Tangier?",
+    "expected_contexts": [
+      "Suddenly, there in the midst of all that confusion, he saw the most beautiful sword he had ever seen... He continued to look at the beautiful sword for a bit longer, until he summoned the courage to turn around. All around him was the market... but nowhere could he find his new companion."
+    ],
+    "expected_output": "Santiago trusted a young man in Tangier who claimed to be a guide, but while Santiago became distracted admiring an ornate sword in the market, the man vanished with all his money."
+  },
+  {
+    "input": "What did Santiago realize while helping the candy seller set up his stall in Tangier?",
+    "expected_contexts": [
+      "'This candy merchant isn't making candy so that later he can travel or marry a shopkeeper's daughter. He's doing it because it's what he wants to do,' thought the boy... When he had gone only a short distance, he realized that, while they were erecting the stall, one of them had spoken Arabic and the other Spanish. And they had understood each other perfectly well. There must be a language that doesn't depend on words, the boy thought."
+    ],
+    "expected_output": "Santiago realized that the candy seller was fulfilling his purpose purely out of love for the craft, and that humans can communicate through a universal language beyond spoken words."
+  },
+  {
+    "input": "Why did the crystal merchant let Santiago clean his glassware even though the Koran obliged him to feed the hungry?",
+    "expected_contexts": [
+      "'You didn't have to do any cleaning,' he said. 'The Koran requires me to feed a hungry person.' 'Well then, why did you let me do it?' the boy asked. 'Because the crystal was dirty. And both you and I needed to cleanse our minds of negative thoughts.'"
+    ],
+    "expected_output": "The merchant let Santiago clean the crystal because the merchandise was dirty and both men needed to clear their minds of negative thoughts."
+  },
+  {
+    "input": "Why did the crystal merchant refuse to make his pilgrimage to Mecca?",
+    "expected_contexts": [
+      "'Because it's the thought of Mecca that keeps me alive. That's what helps me face these days that are all the same, these mute crystals on the shelves, and lunch and dinner at that same horrible cafe. I'm afraid that if my dream is realized, I'll have no reason to go on living... so I prefer just to dream about it.'"
+    ],
+    "expected_output": "The crystal merchant feared that if he actually fulfilled his lifelong dream of visiting Mecca, he would have no purpose or reason left to keep living."
+  },
+  {
+    "input": "What does the Arabic word 'Maktub' mean as explained in the novel?",
+    "expected_contexts": [
+      "'Maktub,' the merchant said, finally. 'What does that mean?' 'You would have to have been born an Arab to understand,' he answered. 'But in your language it would be something like It is written.'"
+    ],
+    "expected_output": "'Maktub' is an Arabic expression translating roughly to 'It is written,' signifying that events are destined by the hand of fate or God."
+  },
+  {
+    "input": "What was the Englishman searching for when he joined the desert caravan?",
+    "expected_contexts": [
+      "'Everything in life is an omen,' said the Englishman... 'There is a universal language, understood by everybody, but already forgotten. I am in search of that universal language, among other things. That's why I'm here. I have to find a man who knows that universal language. An alchemist.'"
+    ],
+    "expected_output": "The Englishman was searching for the true universal language and a legendary 200-year-old alchemist living at the Al-Fayoum oasis who could decipher the secrets of alchemy."
+  },
+  {
+    "input": "What are the two components of the alchemical 'Master Work'?",
+    "expected_contexts": [
+      "The boy learned that the liquid part of the Master Work was called the Elixir of Life, and that it cured all illnesses; it also kept the alchemist from growing old. And the solid part was called the Philosopher's Stone... 'A small sliver of the stone can transform large quantities of metal into gold.'"
+    ],
+    "expected_output": "The Master Work consists of the liquid Elixir of Life (which cures illnesses and prevents aging) and the solid Philosopher's Stone (which transmutes base metals into gold)."
+  },
+  {
+    "input": "What is the Emerald Tablet?",
+    "expected_contexts": [
+      "In one of the books he learned that the most important text in the literature of alchemy contained only a few lines, and had been inscribed on the surface of an emerald. 'It's the Emerald Tablet,' said the Englishman, proud that he might teach something to the boy."
+    ],
+    "expected_output": "The Emerald Tablet is the foundational text of alchemy containing only a few lines inscribed directly on an emerald, representing a direct passage to the Soul of the World."
+  },
+  {
+    "input": "What philosophy did the camel driver share about living happily?",
+    "expected_contexts": [
+      "'Because I don't live in either my past or my future. I'm interested only in the present. If you can concentrate always on the present, you'll be a happy man. You'll see that there is life in the desert, that there are stars in the heavens, and that tribesmen fight because they are part of the human race. Life will be a party for you, a grand festival, because life is the moment we're living right now.'"
+    ],
+    "expected_output": "The camel driver believed happiness comes from living strictly in the present moment rather than dwelling on the past or fearing the future."
+  },
+  {
+    "input": "Why are desert oases treated as neutral territories during tribal wars?",
+    "expected_contexts": [
+      "They had been taking careful precautions in the desert, but the camel driver explained to the boy that oases were always considered to be neutral territories, because the majority of the inhabitants were women and children. There were oases throughout the desert, but the tribesmen fought in the desert, leaving the oases as places of refuge."
+    ],
+    "expected_output": "Oases are neutral sanctuaries because both warring sides maintain oases populated mostly by women and children, making them essential places of refuge."
+  },
+  {
+    "input": "Why did the Englishman carry a revolver during his journey through the desert?",
+    "expected_contexts": [
+      "To the boy's surprise, the Englishman took a chrome-plated revolver out of his bag and gave it to the men who were collecting the arms. 'Why a revolver?' he asked. 'It helped me to trust in people,' the Englishman answered."
+    ],
+    "expected_output": "The Englishman carried a chrome-plated revolver because, as he put it, having protection helped him trust in people."
+  },
+  {
+    "input": "What advice did the alchemist give the Englishman when they finally met at Al-Fayoum?",
+    "expected_contexts": [
+      "'I waited all afternoon and evening,' he said. 'He appeared with the first stars of evening. I told him what I was seeking, and he asked me if I had ever transformed lead into gold. I told him that was what I had come here to learn. He told me I should try to do so. That's all he said: 'Go and try.''"
+    ],
+    "expected_output": "The alchemist simply instructed the Englishman to 'Go and try' to transform lead into gold on his own rather than just reading books."
+  },
+  {
+    "input": "How did Fatima react when Santiago told her about his love and his quest for treasure?",
+    "expected_contexts": [
+      "'And I am a part of your dream, a part of your destiny, as you call it. That's why I want you to continue toward your goal. If you have to wait until the war is over, then wait. But if you have to go before then, go on in pursuit of your dream. The dunes are changed by the wind, but the desert never changes. That's the way it will be with our love for each other. Maktub,' she said. 'If I am really a part of your dream, you'll come back one day.'"
+    ],
+    "expected_output": "Fatima encouraged Santiago to continue pursuing his Personal Legend, assuring him that true love never holds a person back and that he would return if she was truly part of his destiny."
+  },
+  {
+    "input": "What Biblical figure did the oasis chieftain compare Santiago to after hearing his warning of the attack?",
+    "expected_contexts": [
+      "'Two thousand years ago, in a distant land, a man who believed in dreams was thrown into a dungeon and then sold as a slave,' the old man said... 'When the pharaoh dreamed of cows that were thin and cows that were fat, this man I'm speaking of rescued Egypt from famine. His name was Joseph. He, too, was a stranger in a strange land, like you, and he was probably about your age.'"
+    ],
+    "expected_output": "The oasis elder compared Santiago to Joseph of Egypt, who was also a young stranger who interpreted dreams and saved Egypt from famine."
+  },
+  {
+    "input": "What condition did the tribal chieftains set for Santiago when preparing for the oasis raid?",
+    "expected_contexts": [
+      "'Tomorrow, we are going to break the agreement that says that no one at the oasis may carry arms... For every ten dead men among our enemies, you will receive a piece of gold. But arms cannot be drawn unless they also go into battle... If at least one of them hasn't been used by the end of the day tomorrow, one will be used on you.'"
+    ],
+    "expected_output": "Santiago was promised one piece of gold for every ten enemy casualties, but if none of the weapons were used in combat, one weapon would be used to kill him."
+  },
+  {
+    "input": "What punishment was given to the commander of the enemy battalion that attacked the oasis?",
+    "expected_contexts": [
+      "The tribal chieftain said that he felt sorry for the tribesmen, but that the Tradition was sacred. He condemned the commander to death without honor. Rather than being killed by a blade or a bullet, he was hanged from a dead palm tree, where his body twisted in the desert wind."
+    ],
+    "expected_output": "The commander was condemned to a dishonorable death and hanged from a dead palm tree for violating the sacred tradition of oasis neutrality."
+  },
+  {
+    "input": "How did the alchemist test Santiago's ability to find life in the desert?",
+    "expected_contexts": [
+      "He said to the boy, 'Show me where there is life out in the desert. Only those who can see such signs of life are able to find treasure.'... 'There's life here,' the boy said to the alchemist. 'I don't know the language of the desert, but my horse knows the language of life.' They dismounted... The alchemist stopped abruptly... In his hand, he grasped a snake by the tail... It was a cobra, whose venom could kill a person in minutes."
+    ],
+    "expected_output": "The alchemist told Santiago to locate life in the desert sands, leading Santiago to let his horse gallop until it found a hole harboring a venomous cobra."
+  },
+  {
+    "input": "Why did the alchemist tell the searching tribesmen the literal truth about his Philosopher's Stone and Elixir of Life?",
+    "expected_contexts": [
+      "'That's the Philosopher's Stone and the Elixir of Life. It's the Master Work of the alchemists... The Arabs laughed at him, and the alchemist laughed along... 'To show you one of life's simple lessons,' the alchemist answered. 'When you possess great treasures within you, and try to tell others of them, seldom are you believed.'"
+    ],
+    "expected_output": "The alchemist revealed the truth to demonstrate that when people possess genuine, extraordinary treasures within themselves, others rarely believe them."
+  },
+  {
+    "input": "What challenge did the alchemist propose to save their lives when captured by warrior tribesmen?",
+    "expected_contexts": [
+      "'He needs three days,' answered the alchemist. 'He is going to transform himself into the wind, just to demonstrate his powers. If he can't do so, we humbly offer you our lives, for the honor of your tribe.'"
+    ],
+    "expected_output": "The alchemist told the tribal chief that Santiago was an alchemist who could transform himself into the wind within three days."
+  },
+  {
+    "input": "What entities did Santiago converse with when attempting to turn himself into the wind?",
+    "expected_contexts": [
+      "'What do you want here today?' the desert asked him... The wind approached the boy and touched his face... 'The wind told me that you know about love,' the boy said to the sun... The boy turned to the hand that wrote all."
+    ],
+    "expected_output": "Santiago spoke sequentially with the desert, the wind, the sun, and finally the Hand that wrote all (God)."
+  },
+  {
+    "input": "How did the alchemist divide the gold disk he created at the Coptic monastery?",
+    "expected_contexts": [
+      "There, the alchemist separated the disk into four parts. 'This is for you,' he said, holding one of the parts out to the monk. 'It's for your generosity to the pilgrims.'... The alchemist turned to the boy. 'This is for you. To make up for what you gave to the general.'... 'And this is for me,' said the alchemist, keeping one of the parts... He took the fourth part and handed it to the monk. 'This is for the boy. If he ever needs it.'"
+    ],
+    "expected_output": "He cut the gold disk into four equal quarters: one for the monk, one for Santiago, one for himself, and a spare piece left with the monk in case Santiago lost his money again."
+  },
+  {
+    "input": "What omen appeared when Santiago reached the Pyramids and began to weep?",
+    "expected_contexts": [
+      "The boy looked at the sands around him, and saw that, where his tears had fallen, a scarab beetle was scuttling through the sand. During his time in the desert, he had learned that, in Egypt, the scarab beetles are a symbol of God. Another omen! The boy began to dig into the dune."
+    ],
+    "expected_output": "Santiago saw a scarab beetle scuttling in the sand where his tears had fallen, which was an ancient Egyptian symbol of God indicating where he should dig."
+  },
+  {
+    "input": "How did the refugee leader at the Pyramids inadvertently reveal where the treasure was hidden?",
+    "expected_contexts": [
+      "'Two years ago, right here on this spot, I had a recurrent dream, too. I dreamed that I should travel to the fields of Spain and look for a ruined church where shepherds and their sheep slept. In my dream, there was a sycamore growing out of the ruins of the sacristy, and I was told that, if I dug at the roots of the sycamore, I would find a hidden treasure. But I'm not so stupid as to cross an entire desert just because of a recurrent dream.'"
+    ],
+    "expected_output": "The leader mocked Santiago by sharing his own recurrent dream of finding buried treasure under a sycamore tree inside a ruined church in Spain where shepherds slept."
+  },
+  {
+    "input": "What did Santiago discover inside the buried chest beneath the sycamore tree?",
+    "expected_contexts": [
+      "An hour later, he had before him a chest of Spanish gold coins. There were also precious stones, gold masks adorned with red and white feathers, and stone statues embedded with jewels. The spoils of a conquest that the country had long ago forgotten, and that some conquistador had failed to tell his children about."
+    ],
+    "expected_output": "Santiago found a chest filled with Spanish gold coins, precious gems, gold masks adorned with feathers, and jewel-encrusted stone statues."
+  },
+  {
+    "input": "Where did Santiago plan to go immediately after retrieving his treasure in the epilogue?",
+    "expected_contexts": [
+      "Then he remembered that he had to get to Tarifa so he could give one-tenth of his treasure to the Gypsy woman, as he had promised... Instead, it brought the scent of a perfume he knew well, and the touch of a kiss — a kiss that came from far away, slowly, slowly, until it rested on his lips. The boy smiled. It was the first time she had done that. 'I'm coming, Fatima,' he said."
+    ],
+    "expected_output": "Santiago planned to visit Tarifa to give the Gypsy woman her one-tenth share, and then travel back to the Al-Fayoum oasis to reunite with Fatima."
+  }
+]

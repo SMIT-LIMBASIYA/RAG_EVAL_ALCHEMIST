@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "total_cases": 3,
+    "judge_model": "gpt-4o-mini",
+    "average_faithfulness": 1.0,
+    "average_answer_relevancy": 0.5697,
+    "faithfulness_threshold": 0.7,
+    "answer_relevancy_threshold": 0.7,
+    "passed": false
+  },
+  "test_cases": [
+    {
+      "case_id": 1,
+      "input": "Explain how the alchemist tested Santiago when they first met in the desert.",
+      "context": "A horseman dressed in black, with a falcon perched on his left shoulder and carrying a sword, confronted the boy and demanded to know who read the flight of the hawks. He placed his sword against the boy's forehead and tested his courage, saying courage is the quality most essential to understanding the Language of the World.",
+      "actual_output": "Based on the text: A horseman dressed in black, with a falcon perched on his left shoulder and carrying a sword, confronted the boy and demanded to know who read the flight of the hawks. He placed his sword against the boy's forehead and tested his courage, saying courage is the quality most essential to understanding...",
+      "expected_output": "The alchemist tested Santiago by appearing as a formidable horseman with a drawn sword against his forehead to test his courage and resolve in reading the desert omens.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.325
+      }
+    },
+    {
+      "case_id": 2,
+      "input": "Why did the crystal merchant never fulfill his dream of going to Mecca?",
+      "context": "The crystal merchant explained that the pilgrimage to Mecca was what kept him alive. He feared that if his dream was realized, he would have no reason to go on living, preferring instead to keep it as an imagined ideal.",
+      "actual_output": "Based on the text: The crystal merchant explained that the pilgrimage to Mecca was what kept him alive. He feared that if his dream was realized, he would have no reason to go on living, preferring instead to keep it as an imagined ideal....",
+      "expected_output": "The crystal merchant feared that if he actually fulfilled his dream of visiting Mecca, he would have nothing left to dream about or motivate him to continue living.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.6286
+      }
+    },
+    {
+      "case_id": 3,
+      "input": "How did Santiago communicate with the desert and wind to turn himself into the wind?",
+      "context": "Santiago spoke with the desert, the wind, the sun, and finally prayed to the Hand that wrote all, realizing that his soul was part of the Soul of God, and transformed into the wind to demonstrate the power of love and unity with nature.",
+      "actual_output": "Based on the text: Santiago spoke with the desert, the wind, the sun, and finally prayed to the Hand that wrote all, realizing that his soul was part of the Soul of God, and transformed into the wind to demonstrate the power of love and unity with nature....",
+      "expected_output": "Santiago spoke with the desert, the wind, and the sun, reaching the Soul of the World and the Hand that wrote all, proving his unity with all creation.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.7556
+      }
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "summary": {
+    "total_cases": 35,
+    "judge_model": "gpt-4o-mini",
+    "average_faithfulness": 0.7655,
+    "average_answer_relevancy": 0.6874,
+    "faithfulness_threshold": 0.7,
+    "answer_relevancy_threshold": 0.7,
+    "passed": false
+  },
+  "test_cases": [
+    {
+      "case_id": 1,
+      "input": "Who is Santiago?",
+      "context": "The boy's name was Santiago. Dusk was falling as the boy arrived with his herd at an abandoned church. His parents had wanted him to become a priest, but he chose to become a shepherd to travel the world.",
+      "actual_output": "Santiago is a boy who chose to become a shepherd to travel the world, even though his parents wanted him to become a priest. He arrives with his herd at an abandoned church as dusk falls.",
+      "expected_output": "Santiago is a young Andalusian shepherd who abandoned his seminary studies to travel the countryside and pursue his dream.",
+      "scores": {
+        "faithfulness": 0.9326,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 2,
+      "input": "How many sheep did Santiago have before selling a portion of them to the King of Salem?",
+      "context": "He recalled that when the sun had risen that morning, he was on another continent, still a shepherd with sixty sheep, and looking forward to meeting with a girl.",
+      "actual_output": "Santiago had sixty sheep.",
+      "expected_output": "Santiago had sixty sheep in his flock before he gave a tenth to the King of Salem and sold the rest.",
+      "scores": {
+        "faithfulness": 0.9,
+        "answer_relevancy": 0.3722
+      }
+    },
+    {
+      "case_id": 3,
+      "input": "Where was Santiago born?",
+      "context": "Santiago explained that he came from only one place: a city near an ancient castle in Spain, where he was born and raised.",
+      "actual_output": "Santiago was born in a city near an ancient castle in Spain.",
+      "expected_output": "Santiago was born in a small town near an ancient castle in the Andalusia region of Spain.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 4,
+      "input": "What subjects did Santiago study before deciding to become a shepherd?",
+      "context": "He had attended a seminary until he was sixteen, where his parents hoped he would become a priest. He had studied Latin, Spanish, and theology.",
+      "actual_output": "The context tells us that Santiago attended a seminary until he was sixteen, and while there he studied Latin, Spanish, and theology. Therefore, before deciding to become a shepherd, Santiago’s subjects of study were Latin, Spanish, and theology.",
+      "expected_output": "Santiago studied Latin, Spanish, and theology at a seminary until he was sixteen years old.",
+      "scores": {
+        "faithfulness": 0.7152,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 5,
+      "input": "Why did Santiago choose to be a shepherd instead of a priest?",
+      "context": "Santiago had studied Latin, Spanish, and theology, but ever since he was a child, he wanted to know the world, which was much more important to him than knowing God and learning about man's sins.",
+      "actual_output": "Santiago chose to be a shepherd instead of a priest because, since a child, he had a greater interest in knowing the world and experiencing life directly, rather than focusing on learning about Latin, Spanish, and theology, or becoming familiar with God and human sins.",
+      "expected_output": "Santiago chose to be a shepherd because he had a deep desire to travel and explore the world rather than join the priesthood.",
+      "scores": {
+        "faithfulness": 0.6115,
+        "answer_relevancy": 0.7214
+      }
+    },
+    {
+      "case_id": 6,
+      "input": "What did Santiago's father give him when he chose to become a shepherd?",
+      "context": "His father gave him a pouch that held three ancient Spanish gold coins that he had found in the fields, telling him to use them to buy a flock of sheep.",
+      "actual_output": "<think>\nHere's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Question:** What did Santiago's father give him when he chose to become a shepherd?\n   - **Context:** His father gave him a pouch that held three ancient Spanish gold coins that he had found in the fields, telling him to use them to buy a flock of sheep.\n   - **Constraints:** Answer directly, accurately, concisely using ONLY the provided context. Maintain high faithfulness. Avoid conversational fluff or markdown formatting.\n\n2.  **Extract Key Information from Context:**\n   - The father gave him a pouch.\n   - The pouch held three ancient Spanish gold coins.\n   - The coins were found in the fields.\n   - The father told him to use them to buy a flock of sheep.\n\n3.  **Formulate Answer (Mental Draft):**\n   His father gave him a pouch containing three ancient Spanish gold coins to buy a flock of sheep.\n\n4.  **Check Constraints:**\n   - Direct? Yes.\n   - Accurate based on context? Yes.\n   - Concise? Yes.\n   - Only uses provided context? Yes.\n   - No conversational fluff? Yes.\n   - No markdown formatting? Yes.\n\n   The draft matches all constraints. I will output it exactly as formulated.\n\n   Final check of the prompt: \"Answer the user question directly, accurately, and concisely using ONLY the facts present in the provided context. Maintain high faithfulness by using the context's exact details. Avoid conversational fluff or markdown formatting.\"\n\n   Output matches exactly. Proceed. \n   Text to output: His father gave him a pouch containing three ancient Spanish gold coins to buy a flock of sheep. (or similar direct phrasing)\n   Let's stick closely to the context: A pouch that held three ancient Spanish gold coins to buy a flock of sheep.\n   I will write: His father gave him a pouch containing three ancient Spanish gold coins to buy a flock of sheep. (No markdown, direct)\n   All good.✅\n   Output matches response. \n   Proceeds. \n   [Output Generation] -> His father gave him a pouch containing three ancient Spanish gold coins to buy a flock of sheep. \n   (Self-Correction/Refinement during thought: The prompt says \"Avoid conversational fluff or markdown formatting.\" I will just output the exact answer without any extra words.)\n   \"A pouch containing three ancient Spanish gold coins to buy a flock of sheep.\" is even more direct. I'll stick with that. Both are fine. I'll go with the direct statement.\n   Final: His father gave him a pouch containing three ancient Spanish gold coins to buy a flock of sheep. (Matches context exactly)✅\n   Output matches. \n   Proceeds. \n   [Output Generation] -> His father gave him a pouch containing three ancient Spanish gold coins to buy a flock of sheep. \n   (Note: I will ensure absolutely no markdown is used, as requested.) \n   All constraints met. Output matches response. \n   [Done.] \n   *Self-Correction/Verification during generation prep*: \n   Context: \"His father gave him a pouch that held three ancient Spanish gold coins that he had found in the fields, telling him to use them to buy a flock of sheep.\"\n   Question: \"What did Santiago's father give him when he chose to become a shepherd?\"\n   Answer: A pouch containing three ancient Spanish gold coins to buy a flock of sheep.\n   This is direct, accurate, concise, uses only context, no fluff, no markdown. Perfect. \n   Output matches.✅\n   [Proceeds]\n</think>\n\nA pouch containing three ancient Spanish gold coins to buy a flock of sheep.",
+      "expected_output": "Santiago's father gave him three ancient Spanish gold coins to purchase his flock and travel the fields.",
+      "scores": {
+        "faithfulness": 0.6161,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 7,
+      "input": "What recurrent dream did Santiago have at the abandoned church?",
+      "context": "Santiago dreamed that a child playing with his sheep took him by both hands and transported him to the Egyptian Pyramids, telling him that he would find a hidden treasure there.",
+      "actual_output": "Santiago repeatedly dreamed that a child playing with his sheep took him by both hands, carried him to the Egyptian Pyramids, and told him he would find a hidden treasure there.",
+      "expected_output": "Santiago repeatedly dreamed that a child transported him to the Pyramids of Egypt and promised that a hidden treasure was buried there.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.4833
+      }
+    },
+    {
+      "case_id": 8,
+      "input": "What payment did the Gypsy woman in Tarifa demand for interpreting Santiago's dream?",
+      "context": "The Gypsy woman told Santiago she would not charge him anything up front, but made him swear to give her one-tenth of his treasure if he ever found it.",
+      "actual_output": "She required that he give her one‑tenth of his treasure, payable only if he ever found it.",
+      "expected_output": "The Gypsy dream interpreter demanded one-tenth of the hidden treasure Santiago found in exchange for her interpretation.",
+      "scores": {
+        "faithfulness": 0.85,
+        "answer_relevancy": 0.15
+      }
+    },
+    {
+      "case_id": 9,
+      "input": "What does Melchizedek describe as the 'world's greatest lie'?",
+      "context": "Melchizedek told the boy that the world's greatest lie is that at a certain point in our lives, we lose control of what is happening to us, and our lives become controlled by fate.",
+      "actual_output": "Melchizedek describes the belief that at a certain point in our lives, we lose control of our lives and they become controlled by fate as the 'world's greatest lie'.",
+      "expected_output": "The world's greatest lie is the notion that people lose control of their destiny and allow fate to take over their lives.",
+      "scores": {
+        "faithfulness": 0.9735,
+        "answer_relevancy": 0.9833
+      }
+    },
+    {
+      "case_id": 10,
+      "input": "How did Melchizedek prove to Santiago that he was truly the King of Salem?",
+      "context": "The old king wrote in the sand of the plaza the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.",
+      "actual_output": "<think>\nHere's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Question:** How did Melchizedek prove to Santiago that he was truly the King of Salem?\n   - **Context Provided:** \"The old king wrote in the sand of the plaza the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.\"\n   - **Constraints:** Answer directly, accurately, concisely using ONLY the provided context. Maintain high faithfulness. Avoid conversational fluff or markdown formatting.\n\n2.  **Evaluate Context vs. Question:**\n   - The context explicitly states what the old king (Melchizedek) did to prove his identity/knowledge: He wrote in the sand Santiago's parents' names, the seminary he attended, the merchant's daughter's name, and secrets Santiago had never told anyone.\n   - This directly answers the question based *only* on the provided text.\n\n3.  **Formulate Answer (Internal Refinement):**\n   - Draft: He wrote in the sand the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.\n   - Check constraints: Direct? Yes. Accurate to context? Yes. Concise? Yes. Only uses provided facts? Yes. No fluff/markdown? Yes.\n\n4.  **Final Output Generation:** (Matches the draft exactly)\n   He wrote in the sand the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.✅\n   - Self-Correction/Verification during thought: The prompt says \"The old king wrote in the sand...\" I will just state exactly what he did as per the context. No extra words. Matches perfectly. All constraints met. Output matches response.✅\n   - Proceed. \n   - Output: He wrote in the sand the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone. \n   - Note: I'll make sure it's strictly factual and matches the context verbatim where possible. All good. \n   - Output Generation. \n   - [Done] \n   - *Self-Correction/Refinement during thought*: The prompt says \"Answer the user question directly, accurately, and concisely using ONLY the facts present in the provided context.\" I will just output the exact action described. No extra words. Perfect. \n   - Final: He wrote in the sand the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.✅\n   - Proceeds. \n   - [Output Generation] -> \"He wrote in the sand the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.\" (Matches exactly) \n   - All constraints checked. Ready. \n   - Output matches response.✅\n   - [Final Check of the Prompt]: \"How did Melchizedek prove to Santiago that he was truly the King of Salem?\" Context: \"The old king wrote in the sand of the plaza the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.\"\n   - Answer: He wrote in the sand the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.\n   - Perfect.✅\n   - Output matches. \n   - [Proceeds]\n</think>\n\nHe wrote in the sand the names of Santiago's parents, the seminary he attended, the name of the merchant's daughter, and secrets Santiago had never spoken to anyone.",
+      "expected_output": "Melchizedek proved his identity by writing hidden personal secrets and family names in the sand that only Santiago knew.",
+      "scores": {
+        "faithfulness": 0.5938,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 11,
+      "input": "What did Melchizedek demand from Santiago in exchange for teaching him how to find the treasure?",
+      "context": "Melchizedek told Santiago that if he wanted to learn about his treasure, he had to give the king one-tenth of his flock, which amounted to six sheep.",
+      "actual_output": "<think>\nHere's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Question:** What did Melchizedek demand from Santiago in exchange for teaching him how to find the treasure?\n   - **Context:** Melchizedek told Santiago that if he wanted to learn about his treasure, he had to give the king one-tenth of his flock, which amounted to six sheep.\n   - **Constraints:** Answer directly, accurately, concisely using ONLY the provided context. Maintain high faithfulness. Avoid conversational fluff or markdown formatting.\n\n2.  **Extract Key Information from Context:**\n   - Melchizedek demanded one-tenth of Santiago's flock.\n   - This amounted to six sheep.\n\n3.  **Formulate Answer:**\n   - Direct answer: One-tenth of his flock, which amounted to six sheep.\n   - Check constraints: Direct? Yes. Accurate to context? Yes. Concise? Yes. No fluff/markdown? Yes.\n\n4.  **Final Output Generation:** (Just the exact answer as requested)\n   One-tenth of his flock, which amounted to six sheep.✅\n   - Self-Correction/Verification during thought: The prompt says \"avoid markdown formatting\". I will output plain text. The answer matches the context exactly. All constraints met. Proceed. \n   Output: One-tenth of his flock, which amounted to six sheep. \n   (Note: I'll make sure it's just the direct answer without any extra words.)✅\n   Final: One-tenth of his flock, which amounted to six sheep. \n   Matches perfectly. Proceeds. \n   [Output Generation] -> One-tenth of his flock, which amounted to six sheep. \n   (Self-Correction/Refinement during thought: The prompt says \"Answer the user question directly, accurately, and concisely using ONLY the facts present in the provided context.\" I will just output the exact phrase.)\n   All good.✅\n   Output matches response. \n   [Done.] \n   *Self-Correction/Verification during generation prep*: I need to make sure I don't use markdown. The prompt says \"Avoid conversational fluff or markdown formatting.\" So I will just output the plain text answer.\n   \"One-tenth of his flock, which amounted to six sheep.\" is perfect.✅\n   Proceeds. \n   [Output Generation] -> One-tenth of his flock, which amounted to six sheep. \n   (Note: I'll double check the exact wording in context: \"one-tenth of his flock, which amounted to six sheep.\" Matches exactly.) \n   Ready. \n   [Output] One-tenth of his flock, which amounted to six sheep. \n   [Done.] \n   *(Note: I will output exactly that string.)*\n</think>\n\nOne-tenth of his flock, which amounted to six sheep.",
+      "expected_output": "Melchizedek demanded one-tenth of Santiago's flock of sheep (six sheep) in exchange for information on how to find the treasure.",
+      "scores": {
+        "faithfulness": 0.4418,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 12,
+      "input": "What are Urim and Thummim and how are they used?",
+      "context": "The King of Salem took a white and a black stone from his breastplate called Urim and Thummim. The black stone signifies 'yes' and the white 'no,' helping to read omens when asking objective questions.",
+      "actual_output": "Urim and Thummim are a white and a black stone taken from the King of Salem’s breastplate. The black stone signifies “yes” and the white stone signifies “no,” and they are used to read omens when asking objective questions.",
+      "expected_output": "Urim and Thummim are two divination stones where black means 'yes' and white means 'no,' used to interpret omens and guide decisions.",
+      "scores": {
+        "faithfulness": 0.9417,
+        "answer_relevancy": 0.9833
+      }
+    },
+    {
+      "case_id": 13,
+      "input": "What is the core moral taught by the story of the wise man and the spoon with drops of oil?",
+      "context": "The wisest man told the boy that the secret of happiness is to see all the marvels of the world, and never to forget the two drops of oil entrusted on the spoon.",
+      "actual_output": "The story teaches that true happiness comes from appreciating all the marvels of the world while never forgetting the responsibility symbolized by the two drops of oil on the spoon.",
+      "expected_output": "The moral is that true happiness comes from enjoying and exploring the wonders of life without neglecting one's duties and responsibilities.",
+      "scores": {
+        "faithfulness": 0.65,
+        "answer_relevancy": 0.5944
+      }
+    },
+    {
+      "case_id": 14,
+      "input": "How did Santiago lose all his money upon arriving in Tangier?",
+      "context": "Santiago was distracted by the beauty of an ornate sword in the marketplace, and while he gazed at it, his newly appointed guide and companion disappeared with all his funds.",
+      "actual_output": "He was mesmerized by an ornate sword in the marketplace, and while he stared at it his newly appointed guide and companion vanished, taking all of his funds.",
+      "expected_output": "Santiago was robbed by a false guide in Tangier who vanished with his money while Santiago was distracted looking at an antique sword.",
+      "scores": {
+        "faithfulness": 0.9147,
+        "answer_relevancy": 0.35
+      }
+    },
+    {
+      "case_id": 15,
+      "input": "What profound realization did Santiago have while helping the candy merchant in Tangier?",
+      "context": "Santiago helped the candy merchant erect his stall and noticed that even though one spoke Arabic and the other Spanish, they understood each other perfectly through a universal language that does not rely on words.",
+      "actual_output": "<think>\nHere's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Context:** \"Santiago helped the candy merchant erect his stall and noticed that even though one spoke Arabic and the other Spanish, they understood each other perfectly through a universal language that does not rely on words.\"\n   - **Question:** \"What profound realization did Santiago have while helping the candy merchant in Tangier?\"\n   - **Constraints:** Answer directly, accurately, concisely using ONLY the provided context. Maintain high faithfulness. Avoid conversational fluff or markdown formatting.\n\n2.  **Extract Key Information from Context:**\n   - Santiago helped the candy merchant erect his stall.\n   - They spoke different languages (Arabic and Spanish).\n   - They understood each other perfectly.\n   - This understanding happened through a \"universal language that does not rely on words.\"\n\n3.  **Formulate Answer based on Constraints:**\n   - The question asks for the \"profound realization.\"\n   - Based on the context, the realization is that they could understand each other perfectly through a universal language that does not rely on words, despite speaking different languages.\n   - Draft: Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words.\n   - Check constraints: Direct? Yes. Accurate to context? Yes. Concise? Yes. Only uses provided facts? Yes. No fluff/markdown? Yes.\n\n4.  **Refine Answer:**\n   Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words. (Matches context exactly, meets all constraints)\n\n   Final check against constraints: \"Answer the user question directly, accurately, and concisely using ONLY the facts present in the provided context. Maintain high faithfulness by using the context's exact details. Avoid conversational fluff or markdown formatting.\"\n   The draft fits perfectly. I will output it exactly.✅\n   Output matches the refined answer.✅\n   Proceed. \n   Output: Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words. \n   (Self-Correction/Verification during thought: The prompt says \"What profound realization did Santiago have...\". The context says he \"noticed that even though one spoke Arabic and the other Spanish, they understood each other perfectly through a universal language that does not rely on words.\" I will phrase it exactly as a realization based on that notice.)\n   Final: Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words. (Matches perfectly)✅\n   Output matches. \n   Proceeds. \n   [Output Generation] -> \"Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words.\" (No markdown, direct, concise)✅\n   All constraints met.✅\n   Output matches response. \n   [Done.] \n   *Self-Correction/Note during generation prep*: I should ensure absolutely no markdown is used, as per instructions. I will output plain text only.\n   Text: Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words.\n   Matches perfectly.✅\n   Proceeds. \n   [Output Generation] (done)\n   *(Note: I'll make sure the output is exactly the answer without any extra words or formatting.)*\n   \"Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words.\" -> This is good.✅\n   Final Output Generation. \n   [Output] Santiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words. \n   *(Check against constraint: \"Avoid conversational fluff or markdown formatting.\" - Checked.)*\n   *(Check against constraint: \"using ONLY the facts present in the provided context.\" - Checked.)*\n   *(Check against constraint: \"Maintain high faithfulness by using the context's exact details.\" - Checked.)*\n   All good.✅\n   Output matches. \n   [Proceeds]\n</think>\n\nSantiago realized that despite speaking different languages, they could understand each other perfectly through a universal language that does not rely on words.",
+      "expected_output": "Santiago realized that there exists a universal language without words that allows people to understand each other when driven by true purpose and enthusiasm.",
+      "scores": {
+        "faithfulness": 0.5396,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 16,
+      "input": "Why did the crystal merchant agree to hire Santiago in his shop?",
+      "context": "Santiago cleaned the dusty crystal glasses in the shop window, causing two customers to enter and make purchases, which the merchant recognized as a good omen.",
+      "actual_output": "He hired Santiago because after Santiago cleaned the dusty crystal glasses in the shop window, two customers entered and made purchases, and the merchant took this as a good omen.",
+      "expected_output": "The crystal merchant hired Santiago because the boy's cleaning attracted immediate paying customers, which was taken as a positive omen.",
+      "scores": {
+        "faithfulness": 0.9278,
+        "answer_relevancy": 0.8167
+      }
+    },
+    {
+      "case_id": 17,
+      "input": "Why did the crystal merchant never travel on his pilgrimage to Mecca?",
+      "context": "The merchant admitted that the thought of Mecca was what kept him alive each day. He feared that if his dream was realized, he would have no reason left to live and that the reality might disappoint him.",
+      "actual_output": "He never made the pilgrimage because he feared that once his dream of reaching Mecca was fulfilled, he would lose his purpose for living and might be disappointed by the reality.",
+      "expected_output": "The crystal merchant chose not to go to Mecca because he feared that fulfilling his ultimate dream would leave him without a purpose to keep going.",
+      "scores": {
+        "faithfulness": 0.5711,
+        "answer_relevancy": 0.5944
+      }
+    },
+    {
+      "case_id": 18,
+      "input": "What innovations did Santiago introduce to revitalize the crystal shop?",
+      "context": "Santiago convinced the merchant to build an outdoor display case to attract foot traffic and later suggested serving hot mint tea in beautiful crystal glasses to people climbing the hill.",
+      "actual_output": "The context describes two specific actions Santiago took to breathe new life into the crystal shop:\n\n1. He persuaded the merchant to construct an outdoor display case. This was intended to draw the attention of passers‑by and increase foot traffic to the shop.\n2. He later proposed offering hot mint tea to visitors climbing the hill, serving the tea in attractive crystal glasses. This created a memorable experience that highlighted the crystal wares.\n\nThus, Santiago’s innovations were: (a) installing an outdoor display case to attract customers, and (b) serving hot mint tea in beautiful crystal glasses to hill‑climbers.",
+      "expected_output": "Santiago proposed building an outdoor display case and serving refreshing tea in crystal glasses to patrons ascending the steep hill.",
+      "scores": {
+        "faithfulness": 0.6188,
+        "answer_relevancy": 0.7214
+      }
+    },
+    {
+      "case_id": 19,
+      "input": "What does the concept of 'Maktub' mean in the context of the story?",
+      "context": "The crystal merchant and other characters frequently use the Arabic word 'Maktub,' explaining that in their language it translates directly to 'It is written.'",
+      "actual_output": "In the story, “Maktub” means “It is written.”",
+      "expected_output": "'Maktub' is an Arabic phrase meaning 'It is written,' embodying the belief that all life events and destinies are predetermined by the same divine Hand.",
+      "scores": {
+        "faithfulness": 0.65,
+        "answer_relevancy": 0.65
+      }
+    },
+    {
+      "case_id": 20,
+      "input": "What was the Englishman searching for during his journey across the desert?",
+      "context": "The Englishman had studied sciences and religions for ten years to find the universal language and the secrets of the Philosopher's Stone and the Elixir of Life from a 200-year-old alchemist living at the Al-Fayoum oasis.",
+      "actual_output": "He was searching for the universal language and the secrets of the Philosopher’s Stone and the Elixir of Life.",
+      "expected_output": "The Englishman was searching for a legendary 200-year-old alchemist at the Al-Fayoum oasis who could teach him the secrets of the Master Work.",
+      "scores": {
+        "faithfulness": 0.85,
+        "answer_relevancy": 0.4833
+      }
+    },
+    {
+      "case_id": 21,
+      "input": "What is the Master Work in the field of alchemy?",
+      "context": "The Master Work is composed of two parts: a liquid portion known as the Elixir of Life, which cures illnesses and prevents aging, and a solid portion known as the Philosopher's Stone, which transmutes base metals into pure gold.",
+      "actual_output": "The Master Work is the combined creation of two alchemical substances: the liquid Elixir of Life, which cures illnesses and prevents aging, and the solid Philosopher’s Stone, which turns base metals into pure gold.",
+      "expected_output": "The Master Work comprises the Elixir of Life to grant longevity and heal diseases, and the Philosopher's Stone to turn base metals into gold.",
+      "scores": {
+        "faithfulness": 0.8773,
+        "answer_relevancy": 0.65
+      }
+    },
+    {
+      "case_id": 22,
+      "input": "What is the Emerald Tablet and what is its significance?",
+      "context": "The Emerald Tablet is the most revered text in alchemy containing only a few lines inscribed directly on an emerald stone, serving as a simple, direct passage to the Soul of the World.",
+      "actual_output": "<think>\nHere's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Question:** What is the Emerald Tablet and what is its significance?\n   - **Context Provided:** \"The Emerald Tablet is the most revered text in alchemy containing only a few lines inscribed directly on an emerald stone, serving as a simple, direct passage to the Soul of the World.\"\n   - **Constraints:** Answer directly, accurately, concisely using ONLY the provided context. Maintain high faithfulness. Avoid conversational fluff or markdown formatting.\n\n2.  **Extract Key Facts from Context:**\n   - It is the most revered text in alchemy.\n   - It contains only a few lines inscribed directly on an emerald stone.\n   - Its significance: It serves as a simple, direct passage to the Soul of the World.\n\n3.  **Formulate Answer (Mental Draft):**\n   The Emerald Tablet is the most revered text in alchemy, consisting of only a few lines inscribed directly on an emerald stone. Its significance lies in its role as a simple, direct passage to the Soul of the World.\n\n4.  **Check Against Constraints:**\n   - Direct, accurate, concise? Yes.\n   - Uses ONLY provided context? Yes.\n   - Maintains exact details? Yes.\n   - No conversational fluff or markdown? Yes. (Will ensure plain text output)\n\n   The draft matches all constraints perfectly.\n\n5.  **Final Output Generation:** (Just the plain text answer)\n   The Emerald Tablet is the most revered text in alchemy, containing only a few lines inscribed directly on an emerald stone. Its significance is that it serves as a simple, direct passage to the Soul of the World.✅\n   All constraints met. Proceeds. \n   Output matches the final version.✅\n   Note: I will make sure there's absolutely no markdown formatting as requested. I'll output plain text.\n   \"The Emerald Tablet is the most revered text in alchemy, containing only a few lines inscribed directly on an emerald stone. Its significance is that it serves as a simple, direct passage to the Soul of the World.\" -> matches perfectly.✅\n   Proceeds. \n   Output Generation. \n   [Done] \n   Self-Correction/Verification during thought: \n   Check constraint: \"Avoid conversational fluff or markdown formatting.\" -> I will output raw text only.\n   Check constraint: \"using ONLY the facts present in the provided context.\" -> All facts are directly from the context.\n   Check constraint: \"Answer the user question directly, accurately, and concisely\" -> It's one sentence/two sentences, direct.\n   All good.✅\n   Output matches response. \n   Proceeds. \n   [Output Generation] -> \"The Emerald Tablet is the most revered text in alchemy, containing only a few lines inscribed directly on an emerald stone. Its significance is that it serves as a simple, direct passage to the Soul of the World.\" (No markdown) -> Actually, the prompt says \"Avoid conversational fluff or markdown formatting.\" I will strictly output plain text.\n   Ready. \n   [Output] -> The Emerald Tablet is the most revered text in alchemy, containing only a few lines inscribed directly on an emerald stone. Its significance is that it serves as a simple, direct passage to the Soul of the World. \n   (Note: I'll make sure it's exactly as formulated.) \n   All steps verified. Output matches.✅\n   [Final Check of the Prompt]: \"Answer the user question directly, accurately, and concisely using ONLY the facts present in the provided context. Maintain high faithfulness by using the context's exact details. Avoid conversational fluff or markdown formatting.\"\n   Everything aligns. Output matches.✅\n   Proceeds. \n   [Output Generation] (matches the final text)\n   \"The Emerald Tablet is the most revered text in alchemy, containing only a few lines inscribed directly on an emerald stone. Its significance is that it serves as a simple, direct passage to the Soul of the World.\" -> Perfect. \n   [Done] \n   *(Self-Correction/Refinement during thought)*: I should ensure absolutely zero markdown, not even bold or italics. The prompt says \"Avoid conversational fluff or markdown formatting.\" I will output plain text only.\n   Final text: The Emerald Tablet is the most revered text in alchemy, containing only a few lines inscribed directly on an emerald stone. Its significance is that it serves as a simple, direct passage to the Soul of the World.\n   Matches perfectly. Proceeds. \n   [Output Generation] -> *Proceeds*\n</think>\n\nThe Emerald Tablet is the most revered text in alchemy, containing only a few lines inscribed directly on an emerald stone. Its significance is that it serves as a simple, direct passage to the Soul of the World.",
+      "expected_output": "The Emerald Tablet is an ancient inscribed gem containing the fundamental, distilled truths of alchemy and the Soul of the World.",
+      "scores": {
+        "faithfulness": 0.5653,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 23,
+      "input": "What philosophy regarding the present did the camel driver share with Santiago?",
+      "context": "The camel driver explained that he lived neither in his past nor his future, focusing solely on the present moment, because concentrating on the now makes life an eternal festival.",
+      "actual_output": "He told Santiago that he lives only in the present—neither in his past nor his future—because focusing on the now turns life into an eternal festival.",
+      "expected_output": "The camel driver taught that living entirely in the present moment frees a person from fear and transforms every day into a meaningful celebration.",
+      "scores": {
+        "faithfulness": 0.75,
+        "answer_relevancy": 0.4
+      }
+    },
+    {
+      "case_id": 24,
+      "input": "Why are oases protected as neutral zones during desert tribal wars?",
+      "context": "Oases are treated as neutral territories because they house mostly women and children, and both warring armies maintain oases of their own, necessitating mutual sanctuaries of refuge.",
+      "actual_output": "Oases are protected as neutral zones during desert tribal wars because they primarily consist of women and children. Both warring armies need mutual sanctuaries of refuge, as they maintain their own oases.",
+      "expected_output": "Oases are held as neutral sanctuaries because they shelter vulnerable populations and both sides depend on them for mutual refuge.",
+      "scores": {
+        "faithfulness": 0.7587,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 25,
+      "input": "What initial counsel did the alchemist offer to the Englishman at the oasis?",
+      "context": "When the Englishman found the alchemist and explained that he wanted to learn how to make gold, the alchemist simply instructed him: 'Go and try.'",
+      "actual_output": "He told the Englishman simply: “Go and try.”",
+      "expected_output": "The alchemist advised the Englishman to stop reading endlessly and to go and attempt the physical process of transformation himself.",
+      "scores": {
+        "faithfulness": 0.9,
+        "answer_relevancy": 0.2929
+      }
+    },
+    {
+      "case_id": 26,
+      "input": "How did Santiago interpret the flight of the two hawks above the desert dunes?",
+      "context": "Watching two hawks diving and fighting in the desert sky, Santiago connected to the Soul of the World and received a vision of an armed army riding into the Al-Fayoum oasis to attack.",
+      "actual_output": "He saw the hawks’ dive and fight as a sign—a vision that an armed army would ride into the Al‑Fayoum oasis to attack.",
+      "expected_output": "Santiago interpreted the colliding hawks as an omen that an enemy army was preparing to invade and attack the peaceful oasis.",
+      "scores": {
+        "faithfulness": 0.7333,
+        "answer_relevancy": 0.25
+      }
+    },
+    {
+      "case_id": 27,
+      "input": "What wager did the tribal elders place on Santiago's prediction of the raid?",
+      "context": "The oasis chieftains decreed that if the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him.",
+      "actual_output": "<think>\nHere's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Context:** \"The oasis chieftains decreed that if the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him.\"\n   - **Question:** \"What wager did the tribal elders place on Santiago's prediction of the raid?\"\n   - **Constraints:** Answer directly, accurately, concisely using ONLY the provided context. Maintain high faithfulness. Avoid conversational fluff or markdown formatting.\n\n2.  **Extract Key Information from Context:**\n   - If the enemy attacks: Santiago gets a gold piece for every ten dead enemies.\n   - If no weapons are used by sunset (i.e., no attack): Santiago will be executed with a weapon.\n\n3.  **Formulate Answer (Mental Draft):**\n   The tribal elders wagered that if the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no attack occurred by sunset, he would be executed.\n\n4.  **Check Constraints:**\n   - Direct? Yes.\n   - Accurate based on context? Yes.\n   - Concise? Yes.\n   - Only uses provided context? Yes.\n   - No conversational fluff? Yes.\n   - No markdown formatting? I will ensure plain text only.\n\n   Draft: The tribal elders wagered that if the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, he would be executed.\n\n5.  **Refine (Self-Correction/Verification):**\n   - Matches context exactly? \"if the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him.\"\n   - I'll stick closely to the wording to ensure high faithfulness.\n   - Final: If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, he would be executed.\n\n   This directly answers the question using only the provided facts. No extra words. No markdown. Ready.✅\n   Output matches the refined version.✅\n   Proceed. \n   Output Generation. \n   \"If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, he would be executed.\" (Matches constraint: direct, accurate, concise, only context, no fluff, no markdown) -> Actually, I'll just output the exact phrasing from the context to be perfectly faithful.\n   \"If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him.\" -> This is perfect.✅\n   Final check of the prompt: \"Answer the user question directly, accurately, and concisely using ONLY the facts present in the provided context. Maintain high faithfulness by using the context's exact details. Avoid conversational fluff or markdown formatting.\"\n   All good. Output matches. \n   Proceeds. \n   [Output Generation] -> If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him. \n   (Note: I will ensure absolutely no markdown is used, as requested.) \n   Done. \n   [Output] If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him. \n   (Self-Correction/Refinement during thought: The prompt says \"Avoid conversational fluff or markdown formatting.\" I will just output the plain text answer.)\n   All constraints met. Output matches exactly.✅\n   Proceeds. \n   [Final Output Generation] -> If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him. \n   (Note: I'll make sure it's just the answer, no extra text.) \n   Done. \n   [Output Generation] (Proceeds)\n   \"If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him.\" -> Matches perfectly.✅\n   Final Answer Generation. \n   [Output] If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him. \n   (Done.) \n   [Self-Correction/Verification during generation prep]\n   Wait, the prompt says \"What wager did the tribal elders place on Santiago's prediction of the raid?\"\n   The context says: \"The oasis chieftains decreed that if the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him.\"\n   I will just output that exact sentence or a direct paraphrase. The exact sentence is fine.\n   All good.✅\n   Output matches. \n   [Final Text] If the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him. \n   (Proceeds)\n</think>\n\nIf the enemy attacked, Santiago would receive a gold piece for every ten dead enemies, but if no weapons were used by sunset, a weapon would be used to execute him.",
+      "expected_output": "The chieftains offered Santiago gold for dead enemies if his warning proved true, but promised to execute him if no attack occurred.",
+      "scores": {
+        "faithfulness": 0.686,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 28,
+      "input": "How did the alchemist test Santiago's ability to read omens in the desert?",
+      "context": "The alchemist asked Santiago to find life in the vast desert sands. Santiago let his horse run freely, and the horse stopped at a rocky crevice where the alchemist caught a live cobra.",
+      "actual_output": "He let Santiago’s horse run free, watched where it halted at a rocky crevice, and then caught a live cobra there, using the horse’s stopping point as a test of Santiago’s ability to read omens.",
+      "expected_output": "The alchemist tested Santiago by challenging him to find life in the barren desert, which Santiago accomplished by trusting his horse to locate a venomous cobra.",
+      "scores": {
+        "faithfulness": 0.5786,
+        "answer_relevancy": 0.7056
+      }
+    },
+    {
+      "case_id": 29,
+      "input": "What test did the alchemist devise to prevent their execution by the warring desert tribe?",
+      "context": "When captured by a desert military chief, the alchemist bought them three days of life by promising that Santiago was a powerful sorcerer who would transform himself into the wind.",
+      "actual_output": "He asked for three days to prove Santiago’s claim by demonstrating that he could transform himself into the wind.",
+      "expected_output": "The alchemist claimed Santiago possessed supernatural powers and gave him three days to prove it by transforming into the wind.",
+      "scores": {
+        "faithfulness": 0.6955,
+        "answer_relevancy": 0.15
+      }
+    },
+    {
+      "case_id": 30,
+      "input": "How was Santiago able to transform himself into the wind on the cliff?",
+      "context": "Santiago spoke successively with the desert sands, the wind, and the sun, finally opening his heart in a wordless prayer to the Hand that wrote all, realizing that his soul and God's soul were one.",
+      "actual_output": "The provided context does not describe Santiago transforming himself into the wind on the cliff; it only mentions his dialogue with the desert sands, the wind, and the sun, and his wordless prayer that led to the realization that his soul and God’s soul were one. Therefore, based on the given information, there is no description of how he transformed into the wind.",
+      "expected_output": "Santiago communed with nature and connected his soul to the Hand that wrote all, unleashing a mighty sandstorm and disappearing across the camp.",
+      "scores": {
+        "faithfulness": 0.5786,
+        "answer_relevancy": 0.9
+      }
+    },
+    {
+      "case_id": 31,
+      "input": "How did the alchemist divide the disk of gold he made at the Coptic monastery?",
+      "context": "The alchemist divided the disk of gold into four equal parts: one for the monk's generosity, one for Santiago to recover his losses, one for himself, and a spare piece left with the monk for Santiago in case he needed it again.",
+      "actual_output": "He cut the gold disk into four equal pieces: one for the monk’s generosity, one for Santiago to recoup his losses, one for himself, and a spare piece left with the monk for Santiago if he needed it again.",
+      "expected_output": "The alchemist sliced the gold disk into four pieces: for the monk, for Santiago, for himself, and a fourth held in reserve for Santiago.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.3722
+      }
+    },
+    {
+      "case_id": 32,
+      "input": "What omen appeared to Santiago at the foot of the Egyptian Pyramids?",
+      "context": "As Santiago wept upon seeing the magnificent Pyramids, he noticed a scarab beetle scuttling in the sand where his tears had fallen, which he recognized as a sacred Egyptian sign of God.",
+      "actual_output": "A scarab beetle scuttling in the sand.",
+      "expected_output": "A scarab beetle scuttling where his tears fell served as an omen indicating precisely where Santiago needed to dig.",
+      "scores": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.15
+      }
+    },
+    {
+      "case_id": 33,
+      "input": "How did the refugee leader at the Pyramids unintentionally help Santiago find his treasure?",
+      "context": "The leader of the desert refugees mocked Santiago's belief in dreams by revealing his own dream of a buried treasure under the roots of a sycamore tree inside an abandoned Spanish church where shepherds slept.",
+      "actual_output": "The refugee leader at the Pyramids unintentionally helped Santiago find his treasure by revealing his own dream of a buried treasure under the roots of a sycamore tree, located inside an abandoned Spanish church where shepherds slept. This dream shared by the leader sparked Santiago's curiosity and reminded him of his own dream, ultimately leading him on his journey to achieve his own treasure.",
+      "expected_output": "The bandit revealed his own dream of a buried treasure under a sycamore tree at an abandoned church in Spain, pinpointing the real treasure location.",
+      "scores": {
+        "faithfulness": 0.8022,
+        "answer_relevancy": 0.9682
+      }
+    },
+    {
+      "case_id": 34,
+      "input": "What did Santiago find buried under the sycamore tree in Spain?",
+      "context": "Digging at the base of the sycamore inside the abandoned church, Santiago's shovel struck a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.",
+      "actual_output": "<think>\nHere's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Context:** \"Digging at the base of the sycamore inside the abandoned church, Santiago's shovel struck a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.\"\n   - **Question:** \"What did Santiago find buried under the sycamore tree in Spain?\"\n   - **Constraints:** Answer directly, accurately, concisely using ONLY the provided context. Maintain high faithfulness. Avoid conversational fluff or markdown formatting.\n\n2.  **Extract Key Information from Context:**\n   - Location: base of the sycamore inside the abandoned church\n   - Object found: a wooden chest\n   - Contents: ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.\n\n3.  **Formulate Answer (Mental Draft):**\n   Santiago found a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.\n\n4.  **Check Constraints:**\n   - Direct? Yes.\n   - Accurate based on context? Yes.\n   - Concise? Yes.\n   - Only uses provided context? Yes.\n   - No conversational fluff? Yes.\n   - No markdown formatting? Yes. (Will ensure plain text)\n\n5.  **Final Output Generation:** (Matches the mental draft exactly)\n   Santiago found a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.✅\n   All constraints met. Proceed. \n   Output matches response.✅\n   Note: I will make sure there's absolutely no markdown, as requested. I'll just output the plain text sentence.✅\n   \"Santiago found a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.\" -> matches perfectly.✅\n   Ready. \n   Output Generation. \n   [Done] \n   *Self-Correction/Verification during thought:* \n   Check constraint: \"Avoid conversational fluff or markdown formatting.\" -> I will output just the sentence. No bold, no quotes unless necessary, but plain text is safer.\n   The context says exactly: \"a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.\"\n   I will state exactly that.\n   Final: Santiago found a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.✅\n   Proceeds. \n   [Output Generation] -> \"Santiago found a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.\" (matches exactly)✅\n   All good. \n   [Output] -> Santiago found a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues. \n   (Note: I'll ensure absolutely no markdown is used in the final output as instructed.) \n   Done. \n   [Proceeds]\n</think>\n\nSantiago found a wooden chest filled with ancient Spanish gold coins, precious gems, feathered gold masks, and jeweled statues.",
+      "expected_output": "Santiago unearthed an antique chest full of Spanish gold coins, gems, ornate gold masks, and jewel-encrusted artifacts.",
+      "scores": {
+        "faithfulness": 0.6672,
+        "answer_relevancy": 1.0
+      }
+    },
+    {
+      "case_id": 35,
+      "input": "Where did Santiago intend to go after finding the hidden treasure?",
+      "context": "After planning to pay his one-tenth debt to the Gypsy woman in Tarifa, Santiago felt the warm desert levanter wind carry the scented kiss of Fatima, whispering that he was returning to her at the oasis.",
+      "actual_output": "He intended to go to the oasis to return to Fatima.",
+      "expected_output": "Santiago intended to pay his tithe to the Gypsy woman in Tarifa and then return across the desert to be with Fatima at the oasis.",
+      "scores": {
+        "faithfulness": 0.9,
+        "answer_relevancy": 0.3167
+      }
+    }
+  ]
+}

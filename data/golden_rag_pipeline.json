@@ -1,0 +1,213 @@
+[
+  {
+    "input": "Why did Santiago decide to become a shepherd instead of following his parents' wish for him to become a priest?",
+    "expected_contexts": [
+      "His parents had wanted him to become a priest, and thereby a source of pride for a simple farm family. They worked hard just to have food and water, like the sheep. He had studied Latin, Spanish, and theology. But ever since he had been a child, he had wanted to know the world, and this was much more important to him than knowing God and learning about man's sins."
+    ],
+    "expected_output": "Santiago chose to become a shepherd because his lifelong desire was to travel and know the world, which was more important to him than studying theology to become a priest."
+  },
+  {
+    "input": "What did Santiago's father give him when Santiago announced he wanted to travel the fields?",
+    "expected_contexts": [
+      "The next day, he gave his son a pouch that held three ancient Spanish gold coins. 'I found these one day in the fields. I wanted them to be a part of your inheritance. But use them to buy your flock. Take to the fields, and someday you'll learn that our countryside is the best, and our women the most beautiful.'"
+    ],
+    "expected_output": "His father gave him three ancient Spanish gold coins from an inheritance to buy a flock of sheep and pursue his desire to travel."
+  },
+  {
+    "input": "What recurrent dream prompted Santiago to seek out an interpreter in Tarifa?",
+    "expected_contexts": [
+      "'I dreamed that I was in a field with my sheep, when a child appeared and began to play with the animals... And suddenly, the child took me by both hands and transported me to the Egyptian pyramids... the child said to me, If you come here, you will find a hidden treasure.' And, just as she was about to show me the exact location, I woke up. Both times.'"
+    ],
+    "expected_output": "Santiago dreamed twice that a child playing with his sheep took him by the hand to the Egyptian pyramids and told him he would find a hidden treasure there."
+  },
+  {
+    "input": "What agreement did Santiago make with the Gypsy woman regarding the interpretation of his dream?",
+    "expected_contexts": [
+      "'I'm not going to charge you anything now,' she said. 'But I want one-tenth of the treasure, if you find it.' The boy laughed — out of happiness. He was going to be able to save the little money he had because of a dream about hidden treasure! 'Well, interpret the dream,' he said. 'First, swear to me. Swear that you will give me one-tenth of your treasure in exchange for what I am going to tell you.' The shepherd swore that he would."
+    ],
+    "expected_output": "Santiago swore looking at the image of the Sacred Heart of Jesus that he would give the Gypsy woman one-tenth of his treasure if he found it at the Pyramids."
+  },
+  {
+    "input": "What is the 'world's greatest lie' according to Melchizedek?",
+    "expected_contexts": [
+      "'It's this: that at a certain point in our lives, we lose control of what's happening to us, and our lives become controlled by fate. That's the world's greatest lie.'"
+    ],
+    "expected_output": "The world's greatest lie is that individuals lose control over their lives at a certain point and become controlled by fate."
+  },
+  {
+    "input": "How did Melchizedek convince Santiago of his supernatural identity and wisdom in the plaza?",
+    "expected_contexts": [
+      "There, in the sand of the plaza of that small city, the boy read the names of his father and his mother and the name of the seminary he had attended. He read the name of the merchant's daughter, which he hadn't even known, and he read things he had never told anyone."
+    ],
+    "expected_output": "Melchizedek wrote intimate secrets in the sand with a stick, including the names of Santiago's parents, the seminary he attended, and the merchant's daughter's name."
+  },
+  {
+    "input": "What payment did Melchizedek demand from Santiago before giving him advice on finding the treasure?",
+    "expected_contexts": [
+      "'If you want to learn about your own treasure, you will have to give me one-tenth of your flock.'... 'Tomorrow, at this same time, bring me a tenth of your flock. And I will tell you how to find the hidden treasure.'"
+    ],
+    "expected_output": "Melchizedek demanded one-tenth of Santiago's flock of sheep (six sheep) in exchange for telling him how to find his treasure."
+  },
+  {
+    "input": "What are Urim and Thummim and how was Santiago instructed to use them?",
+    "expected_contexts": [
+      "'Take these,' said the old man, holding out a white stone and a black stone that had been embedded at the center of the breastplate. 'They are called Urim and Thummim. The black signifies 'yes,' and the white 'no.' When you are unable to read the omens, they will help you to do so. Always ask an objective question.'"
+    ],
+    "expected_output": "Urim and Thummim are black and white divination stones given by Melchizedek where black means 'yes' and white means 'no' to assist in reading omens when asking objective questions."
+  },
+  {
+    "input": "What is the moral of the story about the wise man and the teaspoon with two drops of oil?",
+    "expected_contexts": [
+      "'The secret of happiness is to see all the marvels of the world, and never to forget the drops of oil on the spoon.' The shepherd said nothing. He had understood the story the old king had told him. A shepherd may like to travel, but he should never forget about his sheep."
+    ],
+    "expected_output": "The moral is that true happiness consists of appreciating all the marvels of the world without ever forgetting one's personal duties and responsibilities."
+  },
+  {
+    "input": "How was Santiago robbed upon his arrival in Tangier?",
+    "expected_contexts": [
+      "Suddenly, there in the midst of all that confusion, he saw the most beautiful sword he had ever seen... He continued to look at the beautiful sword for a bit longer, until he summoned the courage to turn around. All around him was the market... but nowhere could he find his new companion."
+    ],
+    "expected_output": "A young man who offered to be Santiago's guide took his money under the pretense of buying camels and vanished while Santiago was distracted looking at an ornate sword in the market."
+  },
+  {
+    "input": "What did Santiago learn from his interaction with the candy seller in the Tangier marketplace?",
+    "expected_contexts": [
+      "When he had gone only a short distance, he realized that, while they were erecting the stall, one of them had spoken Arabic and the other Spanish. And they had understood each other perfectly well. There must be a language that doesn't depend on words, the boy thought."
+    ],
+    "expected_output": "Santiago learned that there is a universal language that does not depend on words, enabling people who speak different tongues to understand each other when working with purpose."
+  },
+  {
+    "input": "Why did the crystal merchant invite Santiago to work in his shop?",
+    "expected_contexts": [
+      "In half an hour, he had cleaned all the glasses in the window, and, as he was doing so, two customers had entered the shop and bought some crystal... 'I'd like you to work in my shop. Two customers came in today while you were working, and that's a good omen.'"
+    ],
+    "expected_output": "The crystal merchant hired Santiago because while Santiago was cleaning the window display, two customers entered and bought crystal, which the merchant considered a good omen."
+  },
+  {
+    "input": "Why did the crystal merchant choose never to fulfill his pilgrimage to Mecca?",
+    "expected_contexts": [
+      "'Because it's the thought of Mecca that keeps me alive. That's what helps me face these days that are all the same, these mute crystals on the shelves, and lunch and dinner at that same horrible cafe. I'm afraid that if my dream is realized, I'll have no reason to go on living... so I prefer just to dream about it.'"
+    ],
+    "expected_output": "The crystal merchant preferred to keep Mecca as a motivating dream, fearing that if he actually realized it, he would have no purpose left to continue living."
+  },
+  {
+    "input": "What two business ideas did Santiago implement to increase the crystal merchant's profits?",
+    "expected_contexts": [
+      "'I'd like to build a display case for the crystal,' the boy said to the merchant. 'We could place it outside, and attract those people who pass at the bottom of the hill.'",
+      "'Let's sell tea to the people who climb the hill.' 'Lots of places sell tea around here,' the merchant said. 'But we could sell tea in crystal glasses. The people will enjoy the tea and want to buy the glasses.'"
+    ],
+    "expected_output": "Santiago proposed building an outdoor display case at the bottom of the hill to attract passersby and serving hot mint tea in crystal glasses to customers climbing the steep hill."
+  },
+  {
+    "input": "What does the word 'Maktub' mean as used by the crystal merchant and Santiago?",
+    "expected_contexts": [
+      "'Maktub,' the merchant said, finally. 'What does that mean?' 'You would have to have been born an Arab to understand,' he answered. 'But in your language it would be something like It is written.'"
+    ],
+    "expected_output": "'Maktub' is an Arabic expression meaning 'It is written,' expressing the belief that all events and destinies are predetermined by the Hand of God."
+  },
+  {
+    "input": "What was the Englishman searching for on his journey across the Sahara Desert?",
+    "expected_contexts": [
+      "All his life and all his studies were aimed at finding the one true language of the universe... 'I have to find a man who knows that universal language. An alchemist.'... 'He lives at the Al-Fayoum oasis,' his friend had said. 'And people say that he is two hundred years old, and is able to transform any metal into gold.'"
+    ],
+    "expected_output": "The Englishman was searching for the true universal language and a 200-year-old alchemist living at the Al-Fayoum oasis who could teach him how to master alchemy."
+  },
+  {
+    "input": "What are the two parts of the alchemical Master Work according to the Englishman's books?",
+    "expected_contexts": [
+      "The boy learned that the liquid part of the Master Work was called the Elixir of Life, and that it cured all illnesses; it also kept the alchemist from growing old. And the solid part was called the Philosopher's Stone... 'A small sliver of the stone can transform large quantities of metal into gold.'"
+    ],
+    "expected_output": "The Master Work consists of the Elixir of Life (the liquid part that cures illnesses and grants longevity) and the Philosopher's Stone (the solid part that transmutes metals into gold)."
+  },
+  {
+    "input": "What is the Emerald Tablet in the lore of alchemy?",
+    "expected_contexts": [
+      "In one of the books he learned that the most important text in the literature of alchemy contained only a few lines, and had been inscribed on the surface of an emerald. 'It's the Emerald Tablet,' said the Englishman... 'The Emerald Tablet is a direct passage to the Soul of the World.'"
+    ],
+    "expected_output": "The Emerald Tablet is a legendary emerald inscribed with a few lines that contain the core secrets of alchemy and provide a direct path to the Soul of the World."
+  },
+  {
+    "input": "What philosophy about living in the present did the camel driver teach Santiago?",
+    "expected_contexts": [
+      "'Because I don't live in either my past or my future. I'm interested only in the present. If you can concentrate always on the present, you'll be a happy man... Life will be a party for you, a grand festival, because life is the moment we're living right now.'"
+    ],
+    "expected_output": "The camel driver taught that focusing exclusively on the present moment eliminates fear and transforms every day of life into an eternal celebration."
+  },
+  {
+    "input": "Why are desert oases designated as neutral territories during tribal conflicts?",
+    "expected_contexts": [
+      "The camel driver explained to the boy that oases were always considered to be neutral territories, because the majority of the inhabitants were women and children. There were oases throughout the desert, but the tribesmen fought in the desert, leaving the oases as places of refuge."
+    ],
+    "expected_output": "Oases are considered neutral zones because they harbor women and children and both warring sides depend on them as mutual places of refuge."
+  },
+  {
+    "input": "What advice did the alchemist give the Englishman when they met at the oasis?",
+    "expected_contexts": [
+      "'I told him what I was seeking, and he asked me if I had ever transformed lead into gold. I told him that was what I had come here to learn. He told me I should try to do so. That's all he said: Go and try.'"
+    ],
+    "expected_output": "The alchemist told the Englishman that instead of merely reading books, he should go and try to transform lead into gold himself."
+  },
+  {
+    "input": "What omen did Santiago see in the desert near Al-Fayoum that warned him of an impending attack?",
+    "expected_contexts": [
+      "Suddenly, one of the hawks made a flashing dive through the sky, attacking the other. As it did so, a sudden, fleeting image came to the boy: an army, with its swords at the ready, riding into the oasis."
+    ],
+    "expected_output": "Santiago watched a hawk diving to attack another hawk in the sky, which triggered a sudden vision of an armed army riding into the oasis to attack."
+  },
+  {
+    "input": "What deal did the oasis chieftains make with Santiago after he warned them of the coming raid?",
+    "expected_contexts": [
+      "'Tomorrow, we are going to break the agreement that says that no one at the oasis may carry arms. Throughout the entire day we will be on the lookout for our enemies... For every ten dead men among our enemies, you will receive a piece of gold. But arms cannot be drawn unless they also go into battle... If at least one of them hasn't been used by the end of the day tomorrow, one will be used on you.'"
+    ],
+    "expected_output": "The chieftains offered Santiago a piece of gold for every ten dead enemies if the attack occurred, but warned that if no weapons were used in combat, one would be used to execute him."
+  },
+  {
+    "input": "How did the oasis inhabitants defeat the raiding desert battalion?",
+    "expected_contexts": [
+      "Before the sun had reached its high point, five hundred tribesmen appeared on the horizon... When they reached the white tent at the center of Al-Fayoum, they withdrew their scimitars and rifles. And they attacked an empty tent. The men of the oasis surrounded the horsemen from the desert and within half an hour all but one of the intruders were dead."
+    ],
+    "expected_output": "The raiders attacked an empty central tent, allowing two thousand armed oasis defenders to surround them and eliminate nearly the entire five-hundred-man battalion within half an hour."
+  },
+  {
+    "input": "How did the alchemist test Santiago's ability to find life in the desert?",
+    "expected_contexts": [
+      "He said to the boy, 'Show me where there is life out in the desert. Only those who can see such signs of life are able to find treasure.'... 'There's life here,' the boy said to the alchemist. 'I don't know the language of the desert, but my horse knows the language of life.'... Advancing slowly, they searched among the stones... In his hand, he grasped a snake by the tail. The boy leapt as well, but away from the alchemist... It was a cobra, whose venom could kill a person in minutes."
+    ],
+    "expected_output": "The alchemist instructed Santiago to find life in the sands, which Santiago did by letting his horse gallop until it halted near a hole containing a venomous cobra."
+  },
+  {
+    "input": "Why did the alchemist openly tell the searching tribesmen that he carried the Philosopher's Stone and Elixir of Life?",
+    "expected_contexts": [
+      "'What are these things?' he asked. 'That's the Philosopher's Stone and the Elixir of Life. It's the Master Work of the alchemists... The Arabs laughed at him, and the alchemist laughed along... 'To show you one of life's simple lessons,' the alchemist answered. 'When you possess great treasures within you, and try to tell others of them, seldom are you believed.'"
+    ],
+    "expected_output": "The alchemist spoke the literal truth to demonstrate that when someone possesses immense treasures within themselves, other people rarely believe them."
+  },
+  {
+    "input": "What wager did the alchemist make with the military chief to save their lives when they were captured as spies?",
+    "expected_contexts": [
+      "'He needs three days,' answered the alchemist. 'He is going to transform himself into the wind, just to demonstrate his powers. If he can't do so, we humbly offer you our lives, for the honor of your tribe.'"
+    ],
+    "expected_output": "The alchemist told the military chief that Santiago was an alchemist who could demonstrate his power by turning himself into the wind within three days."
+  },
+  {
+    "input": "How was Santiago able to transform himself into the wind to satisfy the desert chief?",
+    "expected_contexts": [
+      "The boy turned to the hand that wrote all. As he did so, he sensed that the universe had fallen silent, and he decided not to speak. A current of love rushed from his heart, and the boy began to pray... The boy reached through to the Soul of the World, and saw that it was a part of the Soul of God. And he saw that the Soul of God was his own soul. And that he, a boy, could perform miracles. The simum blew that day as it had never blown before."
+    ],
+    "expected_output": "Santiago conversed with the desert, wind, and sun, and prayed wordlessly to the Hand that wrote all, connecting his soul to the Soul of God to conjure a massive sandstorm and reappear across the camp."
+  },
+  {
+    "input": "How did the alchemist divide the gold disk he created at the Coptic monastery?",
+    "expected_contexts": [
+      "There, the alchemist separated the disk into four parts. 'This is for you,' he said, holding one of the parts out to the monk. 'It's for your generosity to the pilgrims.'... The alchemist turned to the boy. 'This is for you. To make up for what you gave to the general.'... 'And this is for me,' said the alchemist, keeping one of the parts... He took the fourth part and handed it to the monk. 'This is for the boy. If he ever needs it.'"
+    ],
+    "expected_output": "The alchemist split the gold into four parts: one for the monk, one for Santiago, one for himself, and a fourth held in reserve by the monk in case Santiago lost his money again."
+  },
+  {
+    "input": "How did the refugee leader at the Pyramids inadvertently reveal the true location of Santiago's treasure?",
+    "expected_contexts": [
+      "'Two years ago, right here on this spot, I had a recurrent dream, too. I dreamed that I should travel to the fields of Spain and look for a ruined church where shepherds and their sheep slept. In my dream, there was a sycamore growing out of the ruins of the sacristy, and I was told that, if I dug at the roots of the sycamore, I would find a hidden treasure. But I'm not so stupid as to cross an entire desert just because of a recurrent dream.'"
+    ],
+    "expected_output": "The leader revealed his own recurrent dream about a treasure buried under the roots of a sycamore tree at an abandoned church in Spain, showing Santiago exactly where to dig."
+  }
+]
